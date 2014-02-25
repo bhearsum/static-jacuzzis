@@ -1,1 +1,1 @@
-{"builders": ["Linux x86-64 cedar build","b2g_b2g-inbound_hamachi_dep"]}
+{"builders": ["b2g_b2g-inbound_hamachi_dep","b2g_b2g-inbound_emulator-debug_dep"]}
