@@ -1,1 +1,1 @@
-{"builders": ["Linux x86-64 cedar leak test build"]}
+{"builders": ["Linux x86-64 cedar leak test build","b2g_b2g-inbound_emulator_dep"]}
