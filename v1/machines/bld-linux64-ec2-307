@@ -1,1 +1,1 @@
-{"builders":["Linux x86-64 birch leak test build"]}
+{"builders":["Linux x86-64 birch leak test build","b2g_mozilla-inbound_emulator_dep"]}
