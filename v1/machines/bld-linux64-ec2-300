@@ -1,1 +1,6 @@
-{"builders": ["b2g_b2g-inbound_emulator_dep","Linux birch build"]}
+{
+    "builders": [
+        "b2g_b2g-inbound_emulator_dep",
+        "Linux birch build"
+    ]
+}

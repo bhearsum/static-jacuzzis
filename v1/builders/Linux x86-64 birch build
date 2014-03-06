@@ -1,1 +1,13 @@
-{"machines":["bld-linux64-ec2-006","bld-linux64-ec2-305","bld-linux64-ec2-306","bld-linux64-spot-009","bld-linux64-spot-010","bld-linux64-spot-011","bld-linux64-spot-309","bld-linux64-spot-310","bld-linux64-spot-311"]}
+{
+    "machines": [
+        "bld-linux64-ec2-006",
+        "bld-linux64-ec2-305",
+        "bld-linux64-ec2-306",
+        "bld-linux64-spot-009",
+        "bld-linux64-spot-010",
+        "bld-linux64-spot-011",
+        "bld-linux64-spot-309",
+        "bld-linux64-spot-310",
+        "bld-linux64-spot-311"
+    ]
+}

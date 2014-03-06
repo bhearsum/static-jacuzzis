@@ -1,1 +1,6 @@
-{"builders": ["Linux b2g-inbound leak test build","b2g_b2g-inbound_hamachi_eng_dep"]}
+{
+    "builders": [
+        "Linux b2g-inbound leak test build",
+        "b2g_b2g-inbound_hamachi_eng_dep"
+    ]
+}
