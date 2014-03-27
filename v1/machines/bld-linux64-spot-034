@@ -1,0 +1,6 @@
+{
+    "builders": [
+        "Thunderbird comm-central linux l10n nightly",
+        "Thunderbird comm-central linux64 l10n nightly"
+    ]
+}

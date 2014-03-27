@@ -1,6 +1,5 @@
 {
     "builders": [
-        "Thunderbird comm-aurora linux64 l10n nightly",
         "Linux x86-64 b2g-inbound build"
     ]
 }

@@ -1,6 +1,5 @@
 {
     "builders": [
-        "Firefox mozilla-aurora linux64 l10n nightly",
         "b2g_b2g-inbound_linux32_gecko build"
     ]
 }

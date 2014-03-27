@@ -1,0 +1,6 @@
+{
+    "builders": [
+        "Firefox mozilla-central linux l10n nightly",
+        "Firefox mozilla-central linux64 l10n nightly"
+    ]
+}

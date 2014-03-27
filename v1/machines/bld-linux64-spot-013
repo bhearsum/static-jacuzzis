@@ -1,6 +1,5 @@
 {
     "builders": [
-        "Linux x86-64 birch leak test build",
-        "Firefox mozilla-central linux64 l10n nightly"
+        "Linux x86-64 birch leak test build"
     ]
 }
