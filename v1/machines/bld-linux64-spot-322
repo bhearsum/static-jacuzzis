@@ -1,5 +1,5 @@
 {
-    "builders": [
-        "Linux x86-64 b2g-inbound build"
-    ]
+  "builders": [
+    "Linux x86-64 b2g-inbound build"
+  ]
 }
