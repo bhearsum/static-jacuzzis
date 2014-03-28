@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux b2g-inbound build", 
     "Linux birch build"
   ]
 }
