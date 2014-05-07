@@ -131,6 +131,7 @@ def main():
     p_decrease = .5
 
     config = json.load(open("config.json"))
+    changed = False
     for builder, machine_types in config['builders'].items():
         # Skip l10n for now
         if "l10n" in builder:
@@ -158,9 +159,11 @@ def main():
             print builder, "OK"
         else:
             print builder, delta
+            changed = True
             config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
 
-    json.dump(config, open("config.json", "wb"), indent=2, sort_keys=True)
+    if changed:
+        json.dump(config, open("config.json", "wb"), indent=2, sort_keys=True)
 
 
 if __name__ == '__main__':
