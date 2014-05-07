@@ -16,30 +16,6 @@
       "bld-linux64-ec2-": 1, 
       "bld-linux64-spot-": 4
     }, 
-    "Linux mozilla-inbound build": {
-      "bld-linux64-ec2-": 3, 
-      "bld-linux64-spot-": 10
-    }, 
-    "Linux mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 3, 
-      "bld-linux64-spot-": 10
-    }, 
-    "Linux x86-64 mozilla-inbound build": {
-      "bld-linux64-ec2-": 3, 
-      "bld-linux64-spot-": 10
-    }, 
-    "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 3, 
-      "bld-linux64-spot-": 10
-    }, 
-    "b2g_mozilla-inbound_linux64_gecko": {
-      "bld-linux64-ec2-": 3,
-      "bld-linux64-spot-": 8
-    },
-    "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-ec2-": 3,
-      "bld-linux64-spot-": 8
-    },
     "Linux birch build": {
       "bld-linux64-ec2-": 3, 
       "bld-linux64-spot-": 6
@@ -48,6 +24,14 @@
       "bld-linux64-ec2-": 3, 
       "bld-linux64-spot-": 6
     }, 
+    "Linux mozilla-inbound build": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 10
+    }, 
+    "Linux mozilla-inbound leak test build": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 10
+    }, 
     "Linux x86-64 birch build": {
       "bld-linux64-ec2-": 3, 
       "bld-linux64-spot-": 6
@@ -55,6 +39,14 @@
     "Linux x86-64 birch leak test build": {
       "bld-linux64-ec2-": 3, 
       "bld-linux64-spot-": 6
+    }, 
+    "Linux x86-64 mozilla-inbound build": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 10
+    }, 
+    "Linux x86-64 mozilla-inbound leak test build": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 10
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 1, 
@@ -89,6 +81,14 @@
       "bld-linux64-spot-": 8
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 8
+    }, 
+    "b2g_mozilla-inbound_emulator-debug_dep": {
+      "bld-linux64-ec2-": 3, 
+      "bld-linux64-spot-": 8
+    }, 
+    "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 3, 
       "bld-linux64-spot-": 8
     }
