@@ -119,8 +119,11 @@ def calc_optimal_size(activity, n0, p_increase, p_decrease):
 
 def main():
     global db
+    # TODO: move this to external file
     db = sa.create_engine()
 
+    # TODO: logging
+    # TODO: configuration for these
     now = time.time()
     yesterday = now - 86400
 
@@ -138,7 +141,11 @@ def main():
         # Go back an extra day to get "warmed up"
         # i.e. if we start looking at just the start time, it will appear that
         # there is 0 load until the next job starts
-        activity = [(start, finish) for (start, finish) in get_builder_activity(builder, yesterday - 86400, now) if start >= yesterday]
+        activity = [
+            (start, finish) for (start, finish) in
+            get_builder_activity(builder, yesterday - 86400, now)
+            if start >= yesterday
+        ]
 
         n = calc_optimal_size(activity, n0, p_increase, p_decrease)
 
@@ -152,7 +159,6 @@ def main():
         else:
             print builder, delta
             config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
-
 
     json.dump(config, open("config.json", "wb"), indent=2, sort_keys=True)
 
