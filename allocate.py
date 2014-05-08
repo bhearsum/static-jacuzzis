@@ -20,9 +20,14 @@ Basic flow:
 """
 import time
 import json
+import logging
 
 import sqlalchemy as sa
 
+log = logging.getLogger(__name__)
+
+
+# Global DB connection
 db = None
 
 
@@ -82,6 +87,7 @@ def calc_builder_stats(activity, n_full, n_idle):
             t_full (float): time in seconds at or above n_full simultaneous builds
             t_idle (float): time in seconds at or below n_idle simultaneous builds
     """
+    log.debug("calculating stats for n_full:%s n_idle:%s", n_full, n_idle)
 
     last_t = None
     last_count = None
@@ -101,7 +107,7 @@ def calc_builder_stats(activity, n_full, n_idle):
     return t_full, t_idle
 
 
-def calc_optimal_size(activity, n0, p_increase, p_decrease):
+def calc_optimal_size(activity, n0, p_increase, t_increase, p_decrease, t_decrease):
     increased = False
     n = n0
     if not activity:
@@ -119,13 +125,13 @@ def calc_optimal_size(activity, n0, p_increase, p_decrease):
         # This means if we decrease the size by one, we'd want to increase
         # it again right away
 
-        # If we're full more than 20 minutes, add more slaves
-        if t_full > 60 * 20:
+        # If we're full more than the threshold, add more slaves
+        if t_full > t_increase:
             increased = True
             n += 1
 
-        # If we're idle more than 4 hours, reduce slaves
-        elif t_idle > 4 * 3600:
+        # If we're idle more than the threshold, reduce slaves
+        elif t_idle > t_decrease:
             if increased:
                 break
             n -= 1
@@ -138,18 +144,33 @@ def calc_optimal_size(activity, n0, p_increase, p_decrease):
 
 
 def main():
-    global db
-    # TODO: move this to external file
-    db = sa.create_engine()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.set_defaults(
+        loglevel=logging.INFO,
+    )
 
-    # TODO: logging
+    parser.add_argument("-v", "--verbose", dest="loglevel", action="store_const", const=logging.DEBUG)
+    parser.add_argument("-q", "--quiet", dest="loglevel", action="store_const", const=logging.WARN)
+    parser.add_argument("--db", dest="db", required=True)
+
+    args = parser.parse_args()
+
+    logging.basicConfig(format="%(asctime)s - %(message)s", level=args.loglevel)
+
+    global db
+    db = sa.create_engine(args.db)
+
     # TODO: configuration for these
     now = time.time()
     yesterday = now - 86400
 
     p_increase = .9
     p_decrease = .5
+    t_increase = 60 * 20  # 20 minutes
+    t_decrease = 4 * 3600  # 4 hours
 
+    # TODO: refactor this
     config = json.load(open("config.json"))
     changed = False
     for builder, machine_types in config['builders'].items():
@@ -168,17 +189,28 @@ def main():
             if start >= yesterday
         ]
 
-        n = calc_optimal_size(activity, n0, p_increase, p_decrease)
+        # Save the current stats for later
+        n_increase = int(n0 * p_increase)
+        n_decrease = int(n0 * p_decrease)
+        t_full0, t_idle0 = calc_builder_stats(activity, n_increase, n_decrease)
+
+        log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
+
+        n = calc_optimal_size(activity, n0, p_increase, t_increase, p_decrease, t_decrease)
 
         # Allocate at least one machine to it
         if n == 0:
             n = 1
 
+        n_increase = int(n * p_increase)
+        n_decrease = int(n * p_decrease)
+        t_full, t_idle = calc_builder_stats(activity, n_increase, n_decrease)
+
         delta = n - n0
         if delta == 0:
-            print builder, "OK"
+            log.debug("%s OK", builder)
         else:
-            print builder, delta
+            log.info("%s %+i (was %i) would result in %is full and %is idle", builder, delta, n0, t_full, t_idle)
             changed = True
             config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
 
