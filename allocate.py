@@ -65,6 +65,24 @@ def get_builder_activity(builder, starttime, endtime):
 
 
 def calc_builder_stats(activity, n_full, n_idle):
+    """
+    Calculate full and idle times for the given builder activity.
+
+    Args:
+        activity (iterable of 2-tuples): sorted tuples of (time, count)
+                                         representing how many jobs were active
+                                         at each point in time
+        n_full (number): if we have more than this many simultaneous jobs
+                         running, the allocation is considered "full" for that
+                         time.
+        n_idle (number): if we have less than this many simultaneous jobs
+                         running, the allocation is considered "idle".
+    Returns:
+        (t_full, t_idle):
+            t_full (float): time in seconds at or above n_full simultaneous builds
+            t_idle (float): time in seconds at or below n_idle simultaneous builds
+    """
+
     last_t = None
     last_count = None
     t_full = 0.0
