@@ -209,7 +209,7 @@ def main():
             log.debug("%s OK", builder)
         else:
             log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
-            log.info("%s %+i (was %i) would result in %is full and %is idle", builder, delta, n0, t_full, t_idle)
+            log.info("%s %i (%+i was %i) would result in %is full and %is idle", builder, n, delta, n0, t_full, t_idle)
             changed = True
             config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
 
