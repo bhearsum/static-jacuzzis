@@ -66,17 +66,19 @@ def get_builder_activity(builder, starttime, endtime):
 
 def calc_builder_stats(activity, n_full, n_idle):
     last_t = None
+    last_count = None
     t_full = 0.0
     t_idle = 0.0
 
     for t, count in activity:
         if last_t:
-            if count >= n_full:
+            if last_count >= n_full:
                 t_full += (t - last_t)
-            elif count <= n_idle:
+            elif last_count <= n_idle:
                 t_idle += (t - last_t)
 
         last_t = t
+        last_count = count
 
     return t_full, t_idle
 
