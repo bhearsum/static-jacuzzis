@@ -194,8 +194,6 @@ def main():
         n_decrease = int(n0 * p_decrease)
         t_full0, t_idle0 = calc_builder_stats(activity, n_increase, n_decrease)
 
-        log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
-
         n = calc_optimal_size(activity, n0, p_increase, t_increase, p_decrease, t_decrease)
 
         # Allocate at least one machine to it
@@ -210,6 +208,7 @@ def main():
         if delta == 0:
             log.debug("%s OK", builder)
         else:
+            log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
             log.info("%s %+i (was %i) would result in %is full and %is idle", builder, delta, n0, t_full, t_idle)
             changed = True
             config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
