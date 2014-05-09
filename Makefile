@@ -1,11 +1,9 @@
-all: pull allocate commit
+all: pull allocate commit push
 
 pull:
 	git fetch origin
 	git reset --hard origin/allocator
 	git clean -f -d v1/
-	#git reset -q allocator -- v1 config.json || true
-	#git checkout -- v1 config.json
 
 allocate: v1/allocated/all
 
@@ -15,6 +13,9 @@ commit: allocate
 	    git add -A v1 config.json; \
 	    git commit -q -F allocate.log; \
 	fi
+
+push: commit
+	git push origin
 
 v1/allocated/all: config.json
 	@echo writing allocations
