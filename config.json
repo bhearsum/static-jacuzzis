@@ -66,7 +66,7 @@
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 11
+      "bld-linux64-spot-": 9
     }, 
     "b2g_b2g-inbound_emulator_dep": {
       "bld-linux64-ec2-": 1, 
