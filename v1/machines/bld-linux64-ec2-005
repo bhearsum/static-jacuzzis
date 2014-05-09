@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Linux birch build", 
-    "b2g_b2g-inbound_hamachi_eng_dep"
-  ]
-}

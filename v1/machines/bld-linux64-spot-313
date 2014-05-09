@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux birch build", 
-    "Linux x86-64 birch leak test build"
+    "Linux birch build"
   ]
 }
