@@ -74,11 +74,11 @@
     }, 
     "b2g_b2g-inbound_hamachi_eng_dep": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux32_gecko build": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 1, 
