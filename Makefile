@@ -2,7 +2,7 @@ all: pull allocate commit push
 
 pull:
 	git fetch origin
-	git reset --hard origin/allocator
+	git reset --hard origin/master
 	git clean -f -d v1/
 
 allocate: v1/allocated/all
