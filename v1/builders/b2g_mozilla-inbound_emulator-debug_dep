@@ -3,12 +3,16 @@
     "bld-linux64-ec2-343", 
     "bld-linux64-spot-081", 
     "bld-linux64-spot-083", 
+    "bld-linux64-spot-088", 
     "bld-linux64-spot-103", 
+    "bld-linux64-spot-108", 
     "bld-linux64-spot-304", 
     "bld-linux64-spot-413", 
     "bld-linux64-spot-419", 
     "bld-linux64-spot-476", 
     "bld-linux64-spot-492", 
-    "bld-linux64-spot-493"
+    "bld-linux64-spot-493", 
+    "bld-linux64-spot-494", 
+    "bld-linux64-spot-496"
   ]
 }
