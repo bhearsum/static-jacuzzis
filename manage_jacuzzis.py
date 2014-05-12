@@ -1,8 +1,15 @@
 #!/usr/bin/env python
 import json
 import os
+import urllib2
 
 from collections import defaultdict
+
+import logging
+log = logging.getLogger(__name__)
+
+# Where the list of usable slaves lives
+USABLE_SLAVES = "https://secure.pub.build.mozilla.org/builddata/reports/reportor/daily/machine_sanity/usable_slaves.json"
 
 
 def load_json(filename):
@@ -29,17 +36,25 @@ def get_builders_by_machines(all_machines, builders):
     return retval
 
 
-def count_machines(machine_spec, machines):
-    return len([m for m in machines if m.startswith(machine_spec)])
-
-
-def get_machines(n, machine_spec, machines):
+def get_machines_by_spec(machines, machine_spec):
     retval = set()
     for m in machines:
         if m.startswith(machine_spec):
             retval.add(m)
-            if len(retval) >= n:
-                break
+    return retval
+
+
+def count_machines(machines, machine_spec):
+    return len(get_machines_by_spec(machines, machine_spec))
+
+
+def get_machines(n, machines, machine_spec):
+    retval = set()
+    for m in get_machines_by_spec(machines, machine_spec):
+        if check_slavealloc(m):
+            retval.add(m)
+        if len(retval) >= n:
+            break
     return retval
 
 
@@ -67,7 +82,8 @@ def filter_other_branch_machines(machines, builder, builders_by_machine):
     return retval
 
 
-def allocate_builders(allocations, old_builders, builders_by_machine, max_builders_per_machine):
+def allocate_builders(allocations, old_builders, builders_by_machine,
+                      max_builders_per_machine):
     # For builders that used to have allocations but don't any more, free up
     # their machines
     for builder in set(old_builders.keys()) - set(allocations.keys()):
@@ -85,24 +101,29 @@ def allocate_builders(allocations, old_builders, builders_by_machine, max_builde
 
         available_machines = set(m for (m, bl) in builders_by_machine.items() if len(bl) < max_builders_per_machine)
         # Don't use machines that are on different branches
-        available_machines = filter_other_branch_machines(available_machines, builder, builders_by_machine)
+        available_machines = filter_other_branch_machines(
+            available_machines, builder, builders_by_machine)
         # Now sort by # of builders per machine so we put up to
         # max_builders_per_machine per machine
         available_machines = sorted(available_machines, key=lambda m: len(builders_by_machine[m]), reverse=True)
         new_machines = set(old_machines)
         for machine_spec, count in machines.items():
-            old_count = count_machines(machine_spec, old_machines)
+            # Ignore these, they're special
+            if machine_spec.startswith("_"):
+                continue
+
+            old_count = count_machines(old_machines, machine_spec)
             delta = count - old_count
             if delta > 0:
                 # Need MOAR!
-                new = get_machines(delta, machine_spec, available_machines)
+                new = get_machines(delta, available_machines, machine_spec)
                 new_machines.update(new)
                 for m in new:
                     builders_by_machine[m].append(builder)
                 #print builder, "adding", new
             elif delta < 0:
                 # Don't need as many. Free up some
-                unused_machines = get_machines(-delta, machine_spec, old_machines)
+                unused_machines = get_machines(-delta, old_machines, machine_spec)
                 new_machines -= unused_machines
                 for m in unused_machines:
                     builders_by_machine[m].remove(builder)
@@ -172,7 +193,75 @@ def gen_config(old_builders):
     return {"builders": builders}
 
 
+"""
+{u'bitsid': 2, u'envid': 2, u'speedid': 9, u'custom_tplid': None, u'dcid': 21,
+u'distroid': 15, u'basedir': u'/builds/slave', u'enabled': True,
+u'locked_masterid': None, u'slaveid': 15925, u'purposeid': 5,
+u'current_masterid': 311, u'poolid': 41, u'trustid': 5, u'notes': None,
+u'name': u'bld-linux64-spot-301'}
+"""
+
+SLAVEALLOC_URL = "http://slavealloc.pvt.build.mozilla.org/api"
+
+
+_trustlevelCache = {}
+
+
+def get_trust(trustid):
+    if trustid in _trustlevelCache:
+        return _trustlevelCache[trustid]
+
+    url = "{}/trustlevels/{}".format(SLAVEALLOC_URL, trustid)
+    _trustlevelCache[trustid] = json.load(urllib2.urlopen(url))['name']
+    return _trustlevelCache[trustid]
+
+
+_envCache = {}
+
+
+def get_environ(envid):
+    if envid in _envCache:
+        return _envCache[envid]
+
+    url = "{}/environments/{}".format(SLAVEALLOC_URL, envid)
+    _envCache[envid] = json.load(urllib2.urlopen(url))['name']
+    return _envCache[envid]
+
+
+def check_slavealloc(m):
+    """Returns True if this machine is enabled, and is in the prod environ, and
+    has 'core' trust"""
+    url = "{}/slaves/{}?byname=1".format(SLAVEALLOC_URL, m)
+    try:
+        result = json.load(urllib2.urlopen(url))
+        trust = get_trust(result['trustid'])
+        env = get_environ(result['envid'])
+        log.debug("%s - %s %s %s", m, result['enabled'], trust, env)
+        if result['enabled'] and trust == 'core' and env == 'prod':
+            return True
+        return False
+    except Exception:
+        log.exception("Couldn't check slavealloc")
+        return False
+
+
+def get_usable_slaves(config):
+    all_machines = json.load(urllib2.urlopen(USABLE_SLAVES))
+    machine_specs = set()
+    for builder_config in config['builders'].values():
+        machine_specs.update(k for k in builder_config.keys() if not k.startswith("_"))
+
+    # Filter all machines by only those matching our specs
+    matching_machines = set()
+    for s in machine_specs:
+        matching_machines.update(get_machines_by_spec(all_machines, s))
+
+    return matching_machines
+
+
 def main():
+    logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
+
     old_builders = load_builders("v1/builders")
 
     # Generate a config given existing allocations
@@ -183,8 +272,7 @@ def main():
 
     config = load_json('config.json')
 
-    import urllib2
-    all_machines = json.load(urllib2.urlopen("https://secure.pub.build.mozilla.org/builddata/reports/reportor/daily/machine_sanity/usable_slaves.json"))
+    all_machines = get_usable_slaves(config)
 
     # Remove unusable machines from builders
     for builder, machines in old_builders.items():
@@ -193,16 +281,11 @@ def main():
                 print("Removing unusable machine %s from %s" % (m, builder))
                 machines.remove(m)
 
-    #all_machines = ['bld-linux64-ec2-%03d' % i for i in range(1, 50)] + \
-                   #['bld-linux64-ec2-%03d' % i for i in range(301, 350)] + \
-                   #['bld-linux64-spot-%03d' % i for i in range(1, 200)] + \
-                   #['bld-linux64-spot-%03d' % i for i in range(301, 500)]
-
     max_builders_per_machine = 2
     builders_by_machine = get_builders_by_machines(all_machines, old_builders)
 
-
-    builders = allocate_builders(config['builders'], old_builders, builders_by_machine, max_builders_per_machine)
+    builders = allocate_builders(config['builders'], old_builders,
+                                 builders_by_machine, max_builders_per_machine)
 
     write_builders(builders, "v1/builders")
     write_machines(builders, "v1/machines")
