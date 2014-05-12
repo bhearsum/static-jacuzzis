@@ -172,6 +172,10 @@ def main():
 
     # TODO: refactor this
     config = json.load(open("config.json"))
+    if config.get('disabled'):
+        log.info("automatic allocation is disabled")
+        exit(0)
+
     changed = False
     for builder, machine_types in config['builders'].items():
         # Skip l10n for now
