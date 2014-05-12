@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "WINNT 5.2 mozilla-inbound build", 
+    "WINNT 5.2 mozilla-inbound leak test build"
+  ]
+}
