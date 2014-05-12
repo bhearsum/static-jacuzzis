@@ -101,7 +101,8 @@ def allocate_builders(allocations, old_builders, builders_by_machine,
 
         available_machines = set(m for (m, bl) in builders_by_machine.items() if len(bl) < max_builders_per_machine)
         # Don't use machines already allocated to this builder
-        available_machines -= set(old_builders[builder])
+        if builder in old_builders:
+            available_machines -= set(old_builders[builder])
 
         # Don't use machines that are on different branches
         available_machines = filter_other_branch_machines(
