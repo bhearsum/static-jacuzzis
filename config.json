@@ -42,11 +42,11 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 9
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 1, 
@@ -86,7 +86,7 @@
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 11
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 1, 
