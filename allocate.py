@@ -172,6 +172,10 @@ def main():
 
     # TODO: refactor this
     config = json.load(open("config.json"))
+    if config.get('disabled'):
+        log.info("automatic allocation is disabled")
+        exit(0)
+
     changed = False
     for builder, machine_types in config['builders'].items():
         # Skip l10n for now
@@ -210,8 +214,13 @@ def main():
         else:
             log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
             log.info("%s %i (%+i was %i) would result in %is full and %is idle", builder, n, delta, n0, t_full, t_idle)
-            changed = True
-            config['builders'][builder]['bld-linux64-spot-'] = max(config['builders'][builder]['bld-linux64-spot-'] + delta, 0)
+            for spec in 'bld-linux64-spot-', 'w64-ix-':
+                if spec in machine_types:
+                    machine_types[spec] = max(machine_types[spec] + delta, 0)
+                    changed = True
+                    break
+            else:
+                log.error("%s couldn't update machine specs", builder)
 
     if changed:
         json.dump(config, open("config.json", "wb"), indent=2, sort_keys=True)
