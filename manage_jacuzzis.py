@@ -100,6 +100,9 @@ def allocate_builders(allocations, old_builders, builders_by_machine,
             old_machines = old_builders[builder]
 
         available_machines = set(m for (m, bl) in builders_by_machine.items() if len(bl) < max_builders_per_machine)
+        # Don't use machines already allocated to this builder
+        available_machines -= set(old_builders[builder])
+
         # Don't use machines that are on different branches
         available_machines = filter_other_branch_machines(
             available_machines, builder, builders_by_machine)
@@ -109,9 +112,6 @@ def allocate_builders(allocations, old_builders, builders_by_machine,
         new_machines = set(old_machines)
         for machine_spec, count in machines.items():
             # Ignore these, they're special
-            if machine_spec.startswith("_"):
-                continue
-
             old_count = count_machines(old_machines, machine_spec)
             delta = count - old_count
             if delta > 0:
@@ -120,14 +120,14 @@ def allocate_builders(allocations, old_builders, builders_by_machine,
                 new_machines.update(new)
                 for m in new:
                     builders_by_machine[m].append(builder)
-                #print builder, "adding", new
+                log.debug("%s adding %s", builder, new)
             elif delta < 0:
                 # Don't need as many. Free up some
                 unused_machines = get_machines(-delta, old_machines, machine_spec)
                 new_machines -= unused_machines
                 for m in unused_machines:
                     builders_by_machine[m].remove(builder)
-                #print builder, "removing", unused_machines
+                log.debug("%s removing %s", builder, unused_machines)
         builders[builder] = new_machines
 
     return builders
@@ -137,7 +137,6 @@ def write_builders(builders, dirname):
     # First delete everything!
     for builder in os.listdir(dirname):
         fn = os.path.join(dirname, builder)
-        #print "removing", fn
         os.remove(fn)
 
     for builder, machines in builders.items():
@@ -150,7 +149,6 @@ def write_machines(builders, dirname):
     # First delete everything!
     for builder in os.listdir(dirname):
         fn = os.path.join(dirname, builder)
-        #print "removing", fn
         os.remove(fn)
 
     builders_by_machine = defaultdict(list)
@@ -193,14 +191,6 @@ def gen_config(old_builders):
     return {"builders": builders}
 
 
-"""
-{u'bitsid': 2, u'envid': 2, u'speedid': 9, u'custom_tplid': None, u'dcid': 21,
-u'distroid': 15, u'basedir': u'/builds/slave', u'enabled': True,
-u'locked_masterid': None, u'slaveid': 15925, u'purposeid': 5,
-u'current_masterid': 311, u'poolid': 41, u'trustid': 5, u'notes': None,
-u'name': u'bld-linux64-spot-301'}
-"""
-
 SLAVEALLOC_URL = "http://slavealloc.pvt.build.mozilla.org/api"
 
 
@@ -211,7 +201,7 @@ def get_trust(trustid):
     if trustid in _trustlevelCache:
         return _trustlevelCache[trustid]
 
-    url = "{}/trustlevels/{}".format(SLAVEALLOC_URL, trustid)
+    url = "{0}/trustlevels/{1}".format(SLAVEALLOC_URL, trustid)
     _trustlevelCache[trustid] = json.load(urllib2.urlopen(url))['name']
     return _trustlevelCache[trustid]
 
@@ -223,7 +213,7 @@ def get_environ(envid):
     if envid in _envCache:
         return _envCache[envid]
 
-    url = "{}/environments/{}".format(SLAVEALLOC_URL, envid)
+    url = "{0}/environments/{1}".format(SLAVEALLOC_URL, envid)
     _envCache[envid] = json.load(urllib2.urlopen(url))['name']
     return _envCache[envid]
 
@@ -231,7 +221,7 @@ def get_environ(envid):
 def check_slavealloc(m):
     """Returns True if this machine is enabled, and is in the prod environ, and
     has 'core' trust"""
-    url = "{}/slaves/{}?byname=1".format(SLAVEALLOC_URL, m)
+    url = "{0}/slaves/{1}?byname=1".format(SLAVEALLOC_URL, m)
     try:
         result = json.load(urllib2.urlopen(url))
         trust = get_trust(result['trustid'])
@@ -249,7 +239,7 @@ def get_usable_slaves(config):
     all_machines = json.load(urllib2.urlopen(USABLE_SLAVES))
     machine_specs = set()
     for builder_config in config['builders'].values():
-        machine_specs.update(k for k in builder_config.keys() if not k.startswith("_"))
+        machine_specs.update(builder_config.keys())
 
     # Filter all machines by only those matching our specs
     matching_machines = set()
@@ -260,7 +250,7 @@ def get_usable_slaves(config):
 
 
 def main():
-    logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
+    logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.INFO)
 
     old_builders = load_builders("v1/builders")
 
@@ -278,7 +268,7 @@ def main():
     for builder, machines in old_builders.items():
         for m in machines[:]:
             if m not in all_machines:
-                print("Removing unusable machine %s from %s" % (m, builder))
+                log.debug("Removing unusable machine %s from %s", m, builder)
                 machines.remove(m)
 
     max_builders_per_machine = 2

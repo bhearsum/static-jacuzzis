@@ -42,7 +42,7 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 1, 
@@ -63,6 +63,12 @@
     "Thunderbird comm-central linux64 l10n nightly": {
       "bld-linux64-ec2-": 1, 
       "bld-linux64-spot-": 4
+    }, 
+    "WINNT 5.2 mozilla-inbound build": {
+      "w64-ix-": 12
+    }, 
+    "WINNT 5.2 mozilla-inbound leak test build": {
+      "w64-ix-": 12
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 1, 
@@ -86,17 +92,11 @@
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 1, 
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 1, 
       "bld-linux64-spot-": 9
-    },
-    "WINNT 5.2 mozilla-inbound build": {
-        "w64-ix-": 10
-    },
-    "WINNT 5.2 mozilla-inbound leak test build": {
-        "w64-ix-": 10
     }
   }
 }
