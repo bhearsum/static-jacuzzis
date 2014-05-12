@@ -1,19 +1,19 @@
 {
   "builders": {
     "Firefox mozilla-aurora linux l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Firefox mozilla-aurora linux64 l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Firefox mozilla-central linux l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Firefox mozilla-central linux64 l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Linux birch build": {
@@ -25,11 +25,11 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux mozilla-inbound build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 birch build": {
@@ -41,27 +41,27 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-inbound build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 9
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Thunderbird comm-aurora linux64 l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Thunderbird comm-central linux l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "Thunderbird comm-central linux64 l10n nightly": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
@@ -71,31 +71,31 @@
       "w64-ix-": 12
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_hamachi_eng_dep": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux32_gecko build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 11
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
-      "bld-linux64-ec2-": 1, 
+      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 9
     }
   }
