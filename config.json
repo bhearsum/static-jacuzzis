@@ -65,7 +65,7 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "w64-ix-": 8
+      "w64-ix-": 9
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
       "w64-ix-": 9
