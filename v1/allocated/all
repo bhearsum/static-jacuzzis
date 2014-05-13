@@ -17,7 +17,6 @@
     "bld-linux64-spot-055", 
     "bld-linux64-spot-080", 
     "bld-linux64-spot-081", 
-    "bld-linux64-spot-083", 
     "bld-linux64-spot-086", 
     "bld-linux64-spot-103", 
     "bld-linux64-spot-106", 
@@ -85,8 +84,6 @@
     "w64-ix-slave127", 
     "w64-ix-slave128", 
     "w64-ix-slave129", 
-    "w64-ix-slave81", 
-    "w64-ix-slave88", 
-    "w64-ix-slave89"
+    "w64-ix-slave81"
   ]
 }

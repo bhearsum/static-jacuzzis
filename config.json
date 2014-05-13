@@ -42,7 +42,7 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 7
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -65,10 +65,10 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "w64-ix-": 12
+      "w64-ix-": 10
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "w64-ix-": 12
+      "w64-ix-": 10
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
