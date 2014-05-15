@@ -76,7 +76,7 @@
     }, 
     "b2g_b2g-inbound_emulator_dep": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "b2g_b2g-inbound_hamachi_eng_dep": {
       "bld-linux64-ec2-": 0, 
