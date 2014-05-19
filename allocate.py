@@ -163,12 +163,12 @@ def main():
 
     # TODO: configuration for these
     now = time.time()
-    yesterday = now - 86400
+    yesterday = now - 7*86400
 
     p_increase = .9
     p_decrease = .5
-    t_increase = 60 * 20  # 20 minutes
-    t_decrease = 4 * 3600  # 4 hours
+    t_increase = 7 * 60 * 20  # 20 minutes
+    t_decrease = 7 * 4 * 3600  # 4 hours
 
     # TODO: refactor this
     config = json.load(open("config.json"))
@@ -197,6 +197,8 @@ def main():
         n_increase = int(n0 * p_increase)
         n_decrease = int(n0 * p_decrease)
         t_full0, t_idle0 = calc_builder_stats(activity, n_increase, n_decrease)
+
+        log.debug("%s %is full %is idle", builder, t_full0, t_idle0)
 
         n = calc_optimal_size(activity, n0, p_increase, t_increase, p_decrease, t_decrease)
 
