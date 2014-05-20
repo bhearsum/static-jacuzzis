@@ -5,18 +5,17 @@ Write config.json specifing our jacuzzi allocations
 Need to know about _running_ jobs in jacuzzis too?
 
 Basic flow:
-    - Look at past t_window hours of jobs per builder (and currently running
-    jobs?). count peak # of simultaneous jobs over t_increase_threshold
-    minutes.
+    - Look at past jobs per builder. track how much time each builder is full
+    or idle
 
     don't need to consider pending jobs, since that's handled by seeing a full
     jacuzzi and increasing it.
 
-    - If we're ever more than p_increase_threshold % full for more than
-    `t_increase_threshold` minutes, increase the jacuzzi
+    - If we're ever more than p_increase % full for more than
+    `t_increase` minutes, increase the jacuzzi
 
-    - Otherwise, if we're less than p_decrease_threshold % full for more than
-    t_decrease_threshold minutes, decrease the jacuzzi
+    - Otherwise, if we're less than p_decrease % full for more than
+    t_decrease minutes, decrease the jacuzzi
 """
 import time
 import json
@@ -46,6 +45,9 @@ def get_builder_activity(builder, starttime, endtime):
         time (int): timestamp when this activitiy occurred
         count (int): how many jobs were active on this builder at this time
     """
+    # TODO: This doesn't take into account current pending load. It probably
+    # should. Or we should let builds break out of jacuzzis if they wait too
+    # long
     q = sa.text("""
                 SELECT start_time, finish_time FROM buildrequests, builds WHERE
                 builds.brid = buildrequests.id AND
@@ -162,11 +164,16 @@ def main():
     db = sa.create_engine(args.db)
 
     # TODO: configuration for these
+    t_window = 7 * 24 * 3600  # Look at a week's worth of data
     now = time.time()
-    yesterday = now - 7*86400
+    t_start = now - t_window
 
+    # Proportion of jacuzzi that needs to be full/idle in order to change # of
+    # machines allocated
     p_increase = .9
     p_decrease = .5
+    # How long jacuzzis need to be full/idle in order to change # of machines
+    # allocated
     t_increase = 7 * 60 * 20  # 20 minutes
     t_decrease = 7 * 4 * 3600  # 4 hours
 
@@ -189,8 +196,8 @@ def main():
         # there is 0 load until the next job starts
         activity = [
             (start, finish) for (start, finish) in
-            get_builder_activity(builder, yesterday - 86400, now)
-            if start >= yesterday
+            get_builder_activity(builder, t_start - 86400, now)
+            if start >= t_start
         ]
 
         # Save the current stats for later
