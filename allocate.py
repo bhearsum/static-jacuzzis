@@ -174,8 +174,8 @@ def main():
     p_decrease = .5
     # How long jacuzzis need to be full/idle in order to change # of machines
     # allocated
-    t_increase = 7 * 60 * 20  # 20 minutes
-    t_decrease = 7 * 4 * 3600  # 4 hours
+    t_increase = 7 * 60 * 20  # 20 minutes per day x 7 days
+    t_decrease = 7 * 4 * 3600  # 4 hours per day x 7 days
 
     # TODO: refactor this
     config = json.load(open("config.json"))
