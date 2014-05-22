@@ -11,7 +11,7 @@ commit: allocate
 	@if [ -s allocate.log ]; then \
 	    echo commiting; \
 	    git add -A v1 config.json; \
-	    git commit -q -F allocate.log; \
+	    git commit --author="allocator <no-reply@mozilla.com>" -q -F allocate.log; \
 	fi
 
 push: commit
