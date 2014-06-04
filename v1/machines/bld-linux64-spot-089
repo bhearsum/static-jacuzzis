@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Linux mozilla-inbound leak test build"
-  ]
-}
