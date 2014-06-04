@@ -1,3 +1,13 @@
 {
-  "machines": []
+  "machines": [
+    "bld-linux64-spot-017", 
+    "bld-linux64-spot-036", 
+    "bld-linux64-spot-038", 
+    "bld-linux64-spot-039", 
+    "bld-linux64-spot-092", 
+    "bld-linux64-spot-096", 
+    "bld-linux64-spot-306", 
+    "bld-linux64-spot-380", 
+    "bld-linux64-spot-386"
+  ]
 }
