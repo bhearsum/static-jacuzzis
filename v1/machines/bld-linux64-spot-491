@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 2.2 Armv6 mozilla-aurora build", 
+    "Android 2.2 Debug mozilla-aurora build"
+  ]
+}

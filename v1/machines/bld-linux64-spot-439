@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 2.2 Armv6 mozilla-central build", 
+    "Linux x86-64 mozilla-central leak test build"
+  ]
+}

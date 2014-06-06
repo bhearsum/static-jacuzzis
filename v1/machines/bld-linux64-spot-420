@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 2.2 Debug mozilla-central build", 
+    "Linux x86-64 mozilla-central leak test non-unified"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 2.2 mozilla-inbound build", 
+    "Android 4.2 x86 mozilla-inbound build"
+  ]
+}
