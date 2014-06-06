@@ -173,7 +173,7 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "w64-ix-": 8
+      "w64-ix-": 9
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
       "w64-ix-": 9
@@ -359,7 +359,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
       "bld-linux64-spot-": 12
