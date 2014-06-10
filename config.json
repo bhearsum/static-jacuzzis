@@ -262,13 +262,13 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_flame_eng_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_hamachi_eng_dep": {
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux32_gecko build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_linux32_gecko-debug build": {
       "bld-linux64-spot-": 5
