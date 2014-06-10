@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-aurora build"
+    "Android 2.2 Debug mozilla-aurora build", 
+    "b2g_mozilla-aurora_emulator-jb_dep"
   ]
 }
