@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "Android 2.2 mozilla-inbound build"
+  ]
+}
