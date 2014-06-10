@@ -325,15 +325,15 @@
     "bld-linux64-spot-497", 
     "bld-linux64-spot-498", 
     "bld-linux64-spot-499", 
-    "w64-ix-slave109", 
-    "w64-ix-slave120", 
-    "w64-ix-slave121", 
-    "w64-ix-slave122", 
     "w64-ix-slave123", 
     "w64-ix-slave124", 
     "w64-ix-slave126", 
     "w64-ix-slave127", 
     "w64-ix-slave128", 
-    "w64-ix-slave129"
+    "w64-ix-slave129", 
+    "w64-ix-slave132", 
+    "w64-ix-slave133", 
+    "w64-ix-slave141", 
+    "w64-ix-slave143"
   ]
 }
