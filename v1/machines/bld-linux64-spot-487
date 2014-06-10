@@ -1,5 +1,6 @@
 {
   "builders": [
-    "b2g_mozilla-aurora_emulator-jb-debug_dep"
+    "b2g_mozilla-aurora_emulator-jb-debug_dep", 
+    "b2g_mozilla-aurora_linux32_gecko build"
   ]
 }
