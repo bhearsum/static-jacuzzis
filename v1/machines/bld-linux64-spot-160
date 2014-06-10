@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 mozilla-central build", 
     "b2g_mozilla-central_emulator_nonunified"
   ]
 }
