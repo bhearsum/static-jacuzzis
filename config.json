@@ -176,7 +176,7 @@
       "w64-ix-": 10
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "w64-ix-": 10
+      "w64-ix-": 12
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
