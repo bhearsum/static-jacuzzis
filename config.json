@@ -108,7 +108,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 b2g-inbound non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 birch build": {
       "bld-linux64-ec2-": 0, 
@@ -362,7 +362,7 @@
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
       "bld-linux64-spot-": 10
