@@ -362,7 +362,7 @@
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
       "bld-linux64-spot-": 10
