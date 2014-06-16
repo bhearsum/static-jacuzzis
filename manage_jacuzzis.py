@@ -273,7 +273,7 @@ def main():
             if m not in all_machines:
                 log.debug("Removing unusable machine %s from %s", m, builder)
                 machines.remove(m)
-            if not check_slavealloc(m):
+            elif not check_slavealloc(m):
                 log.debug("Removing machine %s from %s due to slavealloc", m, builder)
                 machines.remove(m)
 
