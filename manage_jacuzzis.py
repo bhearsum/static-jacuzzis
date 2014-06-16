@@ -129,6 +129,8 @@ def allocate_builders(allocations, old_builders, builders_by_machine,
                 for m in unused_machines:
                     builders_by_machine[m].remove(builder)
                 log.debug("%s removing %s", builder, unused_machines)
+        if len(new_machines) == 0:
+            raise ValueError("No machines allocated for %s" % builder)
         builders[builder] = new_machines
 
     return builders
@@ -270,6 +272,9 @@ def main():
         for m in machines[:]:
             if m not in all_machines:
                 log.debug("Removing unusable machine %s from %s", m, builder)
+                machines.remove(m)
+            if not check_slavealloc(m):
+                log.debug("Removing machine %s from %s due to slavealloc", m, builder)
                 machines.remove(m)
 
     max_builders_per_machine = 2
