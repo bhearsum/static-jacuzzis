@@ -12,6 +12,9 @@
     "Android 2.2 Armv6 mozilla-inbound build": {
       "bld-linux64-spot-": 7
     }, 
+    "Android 2.2 Armv6 fx-team build": {
+      "bld-linux64-spot-": 0
+    }, 
     "Android 2.2 Debug b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
@@ -36,6 +39,12 @@
     "Android 2.2 Debug mozilla-inbound non-unified": {
       "bld-linux64-spot-": 3
     }, 
+    "Android 2.2 Debug fx-team build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "Android 2.2 Debug fx-team non-unified": {
+      "bld-linux64-spot-": 0
+    }, 
     "Android 2.2 b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
@@ -48,6 +57,9 @@
     "Android 2.2 mozilla-inbound build": {
       "bld-linux64-spot-": 8
     }, 
+    "Android 2.2 fx-team build": {
+      "bld-linux64-spot-": 0
+    }, 
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
@@ -59,6 +71,9 @@
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
       "bld-linux64-spot-": 8
+    }, 
+    "Android 4.2 x86 fx-team build": {
+      "bld-linux64-spot-": 0
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -103,6 +118,12 @@
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 10
+    }, 
+    "Linux fx-team build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "Linux fx-team leak test build": {
+      "bld-linux64-spot-": 0
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
       "bld-linux64-spot-": 3
@@ -155,6 +176,18 @@
     }, 
     "Linux x86-64 mozilla-inbound non-unified": {
       "bld-linux64-spot-": 3
+    }, 
+    "Linux x86-64 fx-team build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "Linux x86-64 fx-team leak test build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "Linux x86-64 fx-team leak test non-unified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "Linux x86-64 fx-team non-unified": {
+      "bld-linux64-spot-": 0
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -376,6 +409,54 @@
     }, 
     "b2g_mozilla-inbound_linux64_gecko-debug build": {
       "bld-linux64-spot-": 10
+    },
+    "b2g_fx-team_emulator-debug_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-debug_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-jb-debug_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-jb-debug_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-jb_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-jb_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-kk-debug_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator-kk_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_emulator_nonunified": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_flame_eng_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_hamachi_eng_dep": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_linux32_gecko build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_linux32_gecko-debug build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_linux64_gecko build": {
+      "bld-linux64-spot-": 0
+    }, 
+    "b2g_fx-team_linux64_gecko-debug build": {
+      "bld-linux64-spot-": 0
     }
   }
 }
