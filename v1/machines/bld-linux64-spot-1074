@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Armv6 mozilla-inbound build"
+    "Android 2.2 Armv6 mozilla-inbound build", 
+    "b2g_mozilla-inbound_linux32_gecko build"
   ]
 }
