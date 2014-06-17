@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Armv6 fx-team build", 
     "b2g_fx-team_linux32_gecko build"
   ]
 }
