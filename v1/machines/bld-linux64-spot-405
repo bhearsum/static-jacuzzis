@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Debug fx-team build"
+    "Android 2.2 Debug fx-team build", 
+    "b2g_fx-team_linux32_gecko-debug build"
   ]
 }
