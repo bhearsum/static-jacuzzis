@@ -61,7 +61,7 @@ def get_machines(n, machines, machine_spec):
 def get_branch(builder):
     # XXX HARDCODING XXX
     branches = ['mozilla-inbound', 'b2g-inbound', 'birch', 'mozilla-central',
-                'mozilla-aurora', 'comm-aurora', 'comm-central']
+                'mozilla-aurora', 'comm-aurora', 'comm-central', 'fx-team']
     for b in branches:
         if b in builder:
             return b
