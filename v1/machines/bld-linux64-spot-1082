@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux mozilla-aurora build", 
     "b2g_mozilla-aurora_emulator_dep"
   ]
 }
