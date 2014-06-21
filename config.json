@@ -10,7 +10,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 2.2 Armv6 mozilla-central build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android 2.2 Armv6 mozilla-inbound build": {
       "bld-linux64-spot-": 8
@@ -58,7 +58,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 mozilla-inbound build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
