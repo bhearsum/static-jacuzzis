@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 b2g-inbound build", 
-    "b2g_b2g-inbound_linux64_gecko build"
+    "Android 4.2 x86 b2g-inbound build"
   ]
 }

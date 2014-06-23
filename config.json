@@ -58,7 +58,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 mozilla-inbound build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -209,7 +209,7 @@
       "b-2008-ix-": 8
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 8
+      "b-2008-ix-": 9
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
@@ -259,10 +259,10 @@
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_fx-team_emulator-debug_dep": {
       "bld-linux64-spot-": 5
