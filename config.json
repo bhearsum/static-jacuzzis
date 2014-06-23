@@ -140,7 +140,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 fx-team build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team leak test build": {
       "bld-linux64-spot-": 6
@@ -277,7 +277,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-jb_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-jb_nonunified": {
       "bld-linux64-spot-": 4
