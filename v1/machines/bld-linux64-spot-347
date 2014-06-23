@@ -1,5 +1,6 @@
 {
   "builders": [
+    "b2g_b2g-inbound_emulator-jb-debug_nonunified", 
     "b2g_b2g-inbound_emulator-kk_nonunified"
   ]
 }
