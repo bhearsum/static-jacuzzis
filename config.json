@@ -4,7 +4,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 Armv6 fx-team build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 2.2 Armv6 mozilla-aurora build": {
       "bld-linux64-spot-": 5
@@ -100,7 +100,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux fx-team leak test build": {
       "bld-linux64-spot-": 6
