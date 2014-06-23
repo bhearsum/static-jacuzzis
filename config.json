@@ -7,7 +7,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 2.2 Armv6 mozilla-aurora build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android 2.2 Armv6 mozilla-central build": {
       "bld-linux64-spot-": 4
@@ -286,7 +286,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator_dep": {
       "bld-linux64-spot-": 5
