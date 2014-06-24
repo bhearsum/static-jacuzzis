@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "b2g_mozilla-aurora_emulator-jb_dep"
-  ]
-}
