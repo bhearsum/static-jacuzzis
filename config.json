@@ -34,7 +34,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Android 2.2 Debug mozilla-central build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 2.2 Debug mozilla-central non-unified": {
       "bld-linux64-spot-": 3
@@ -434,7 +434,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator_nonunified": {
       "bld-linux64-spot-": 3
