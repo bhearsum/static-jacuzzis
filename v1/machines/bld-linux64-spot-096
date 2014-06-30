@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-inbound build", 
-    "b2g_mozilla-inbound_emulator-kk-debug_nonunified"
+    "Android 2.2 Debug mozilla-inbound build"
   ]
 }
