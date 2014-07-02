@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-aurora build", 
-    "b2g_mozilla-aurora_linux64_gecko build"
+    "Linux x86-64 mozilla-aurora build"
   ]
 }
