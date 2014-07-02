@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug b2g-inbound build", 
-    "b2g_b2g-inbound_emulator-debug_dep"
+    "Android 2.2 Debug b2g-inbound build"
   ]
 }
