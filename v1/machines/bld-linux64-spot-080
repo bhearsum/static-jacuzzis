@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-aurora non-unified", 
-    "b2g_mozilla-aurora_emulator-debug_dep"
+    "Android 2.2 Debug mozilla-aurora non-unified"
   ]
 }
