@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 b2g-inbound build"
+    "Android 2.2 b2g-inbound build", 
+    "b2g_b2g-inbound_linux32_gecko-debug build"
   ]
 }
