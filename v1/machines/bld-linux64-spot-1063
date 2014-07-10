@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 2.2 Armv6 mozilla-central build", 
+    "Android 4.2 x86 mozilla-central build"
+  ]
+}
