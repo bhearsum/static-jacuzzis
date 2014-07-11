@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "b2g_mozilla-aurora_linux32_gecko-debug build"
+  ]
+}
