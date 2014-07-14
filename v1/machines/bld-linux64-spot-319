@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-inbound build", 
     "Linux x86-64 mozilla-inbound leak test build"
   ]
 }
