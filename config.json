@@ -123,7 +123,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
       "bld-linux64-spot-": 3
@@ -209,7 +209,7 @@
       "b-2008-ix-": 8
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 9
+      "b-2008-ix-": 8
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
@@ -289,7 +289,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator_nonunified": {
       "bld-linux64-spot-": 3
