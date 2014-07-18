@@ -206,10 +206,10 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "b-2008-ix-": 8
+      "b-2008-ix-": 9
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 8
+      "b-2008-ix-": 9
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
@@ -313,7 +313,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
       "bld-linux64-spot-": 1
@@ -446,7 +446,7 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 7
