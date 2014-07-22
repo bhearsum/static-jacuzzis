@@ -319,7 +319,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 1
@@ -382,7 +382,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_emulator_dep": {
       "bld-linux64-spot-": 4
