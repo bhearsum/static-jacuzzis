@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "b2g_mozilla-central_emulator_dep", 
-    "b2g_mozilla-central_linux32_gecko build"
-  ]
-}
