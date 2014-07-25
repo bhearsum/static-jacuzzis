@@ -64,7 +64,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android 4.2 x86 fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
       "bld-linux64-spot-": 3
@@ -140,7 +140,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 fx-team leak test build": {
       "bld-linux64-spot-": 5
@@ -292,7 +292,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_flame_eng_dep": {
       "bld-linux64-spot-": 4
