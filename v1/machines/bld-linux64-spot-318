@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android 2.2 Debug b2g-inbound build", 
     "Android 4.2 x86 b2g-inbound build"
   ]
 }
