@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android 2.2 mozilla-aurora build", 
     "Linux x86-64 mozilla-aurora non-unified"
   ]
 }
