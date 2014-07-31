@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android 2.2 fx-team build", 
     "b2g_fx-team_emulator_nonunified"
   ]
 }
