@@ -49,7 +49,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android 2.2 mozilla-aurora build": {
       "bld-linux64-spot-": 4
@@ -422,7 +422,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator-jb_nonunified": {
       "bld-linux64-spot-": 3
@@ -449,7 +449,7 @@
       "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
