@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Armv6 mozilla-inbound build"
+    "Android 2.2 Armv6 mozilla-inbound build", 
+    "Android 2.2 Debug mozilla-inbound build"
   ]
 }
