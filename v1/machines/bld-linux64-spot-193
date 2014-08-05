@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Linux x86-64 mozilla-aurora leak test non-unified", 
-    "Linux x86-64 mozilla-aurora non-unified"
-  ]
-}

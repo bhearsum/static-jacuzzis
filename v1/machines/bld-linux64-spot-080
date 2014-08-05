@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Android 2.2 Debug mozilla-aurora non-unified"
-  ]
-}

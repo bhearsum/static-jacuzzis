@@ -31,7 +31,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 Debug mozilla-aurora non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Android 2.2 Debug mozilla-central build": {
       "bld-linux64-spot-": 5
@@ -158,10 +158,10 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-aurora leak test non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-aurora non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-central build": {
       "bld-linux64-spot-": 5
