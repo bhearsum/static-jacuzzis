@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 mozilla-central build", 
-    "Linux x86-64 mozilla-central build"
+    "Android 4.2 x86 mozilla-central build"
   ]
 }
