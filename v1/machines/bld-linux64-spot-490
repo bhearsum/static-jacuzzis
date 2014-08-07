@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android 2.2 Debug fx-team non-unified", 
     "Android 2.2 fx-team build"
   ]
 }
