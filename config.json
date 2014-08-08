@@ -40,7 +40,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android 2.2 Debug mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 7
     }, 
     "Android 2.2 Debug mozilla-inbound non-unified": {
       "bld-linux64-spot-": 3
@@ -440,7 +440,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
       "bld-linux64-spot-": 8
