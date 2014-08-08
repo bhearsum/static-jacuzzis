@@ -10,7 +10,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Android 2.2 Armv6 mozilla-central build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Android 2.2 Armv6 mozilla-inbound build": {
       "bld-linux64-spot-": 7
@@ -209,7 +209,7 @@
       "b-2008-ix-": 10
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 10
+      "b-2008-ix-": 9
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
@@ -446,7 +446,7 @@
       "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 8
