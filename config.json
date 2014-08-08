@@ -58,7 +58,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 2.2 mozilla-inbound build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -123,7 +123,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
       "bld-linux64-spot-": 3
@@ -400,7 +400,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_linux64_gecko build": {
       "bld-linux64-spot-": 4
