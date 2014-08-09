@@ -1,5 +1,6 @@
 {
   "builders": [
-    "b2g_mozilla-central_emulator-debug_nonunified"
+    "b2g_mozilla-central_emulator-debug_nonunified", 
+    "b2g_mozilla-central_linux32_gecko-debug build"
   ]
 }
