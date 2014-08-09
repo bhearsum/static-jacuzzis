@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Armv6 mozilla-inbound build", 
     "b2g_mozilla-inbound_hamachi_eng_dep"
   ]
 }
