@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-central non-unified"
+    "Android 2.2 Debug mozilla-central non-unified", 
+    "b2g_mozilla-central_emulator_dep"
   ]
 }
