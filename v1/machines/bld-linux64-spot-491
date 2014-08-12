@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "b2g_fx-team_emulator-kk_nonunified"
+  ]
+}
