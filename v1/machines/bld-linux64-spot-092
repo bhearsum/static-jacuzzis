@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug fx-team build", 
     "Linux x86-64 fx-team build"
   ]
 }
