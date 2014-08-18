@@ -43,13 +43,13 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 2.2 Debug mozilla-inbound non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Android 2.2 b2g-inbound build": {
       "bld-linux64-spot-": 3
     }, 
     "Android 2.2 fx-team build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Android 2.2 mozilla-aurora build": {
       "bld-linux64-spot-": 3
