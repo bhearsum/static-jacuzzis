@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 mozilla-aurora build", 
     "Linux mozilla-aurora leak test build"
   ]
 }
