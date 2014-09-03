@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 fx-team build", 
     "b2g_fx-team_emulator-jb_nonunified"
   ]
 }
