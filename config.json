@@ -313,52 +313,52 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_emulator-jb_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_emulator_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator_nonunified": {
-      "bld-linux64-spot-": 1
+      "bld-linux64-spot-": 2
     }, 
     "b2g_mozilla-aurora_flame_eng_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_hamachi_eng_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux32_gecko build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux64_gecko build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_emulator-debug_dep": {
       "bld-linux64-spot-": 5
