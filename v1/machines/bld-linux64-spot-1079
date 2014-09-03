@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Debug mozilla-inbound non-unified", 
-    "Linux mozilla-inbound build"
+    "Android 2.2 Debug mozilla-inbound non-unified"
   ]
 }
