@@ -167,7 +167,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-central leak test build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-central leak test non-unified": {
       "bld-linux64-spot-": 3
@@ -313,7 +313,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
       "bld-linux64-spot-": 1
