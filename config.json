@@ -325,7 +325,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_emulator-jb_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-jb_nonunified": {
       "bld-linux64-spot-": 1
@@ -343,10 +343,10 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_flame_eng_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_hamachi_eng_dep": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_linux32_gecko build": {
       "bld-linux64-spot-": 4
