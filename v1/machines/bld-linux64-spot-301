@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-central build", 
-    "b2g_mozilla-central_emulator-kk-debug_nonunified"
+    "Linux mozilla-central build"
   ]
 }
