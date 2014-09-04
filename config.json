@@ -187,7 +187,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 mozilla-inbound non-unified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
