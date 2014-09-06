@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Linux x86-64 fx-team leak test build"
+    "Linux x86-64 fx-team leak test build", 
+    "b2g_fx-team_linux32_gecko build"
   ]
 }
