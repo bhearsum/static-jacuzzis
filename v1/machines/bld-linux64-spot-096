@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux fx-team leak test build", 
     "b2g_fx-team_emulator-jb-debug_dep"
   ]
 }
