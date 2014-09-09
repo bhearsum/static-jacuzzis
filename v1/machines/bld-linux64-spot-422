@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux x86-64 mozilla-central build", 
     "Linux x86-64 mozilla-central leak test non-unified"
   ]
 }
