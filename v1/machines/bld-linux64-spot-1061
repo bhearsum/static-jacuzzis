@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-aurora_emulator-debug_dep", 
     "b2g_mozilla-aurora_flame_eng_dep"
   ]
 }
