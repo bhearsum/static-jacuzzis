@@ -61,13 +61,13 @@
       "bld-linux64-spot-": 1
     }, 
     "Android 4.2 x86 b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Android 4.2 x86 fx-team build": {
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-central build": {
       "bld-linux64-spot-": 5
