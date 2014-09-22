@@ -170,10 +170,10 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-central leak test non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-central non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
@@ -255,7 +255,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
