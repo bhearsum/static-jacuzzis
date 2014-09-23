@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-inbound_emulator-jb-debug_nonunified", 
-    "b2g_mozilla-inbound_emulator-jb_nonunified"
+    "b2g_mozilla-inbound_emulator-jb-debug_nonunified"
   ]
 }
