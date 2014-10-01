@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux fx-team leak test build", 
     "b2g_fx-team_hamachi_eng_dep"
   ]
 }
