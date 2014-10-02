@@ -206,7 +206,7 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "b-2008-ix-": 8
+      "b-2008-ix-": 9
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
       "b-2008-ix-": 10
@@ -422,7 +422,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 16
+      "bld-linux64-spot-": 17
     }, 
     "b2g_mozilla-inbound_emulator-jb_nonunified": {
       "bld-linux64-spot-": 4
@@ -446,7 +446,7 @@
       "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 13
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 12
