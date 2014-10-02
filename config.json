@@ -123,7 +123,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
       "bld-linux64-spot-": 3
@@ -422,7 +422,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 13
+      "bld-linux64-spot-": 14
     }, 
     "b2g_mozilla-inbound_emulator-jb_nonunified": {
       "bld-linux64-spot-": 4
@@ -440,7 +440,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
-      "bld-linux64-spot-": 15
+      "bld-linux64-spot-": 16
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
       "bld-linux64-spot-": 10
@@ -456,7 +456,7 @@
       "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }
   }
 }
