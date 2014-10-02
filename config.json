@@ -255,7 +255,7 @@
       "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
@@ -416,7 +416,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 15
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 4
@@ -446,7 +446,7 @@
       "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 12
