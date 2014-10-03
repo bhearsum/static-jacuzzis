@@ -67,7 +67,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-central build": {
       "bld-linux64-spot-": 5
@@ -313,7 +313,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
       "bld-linux64-spot-": 1
