@@ -119,7 +119,7 @@
     }, 
     "Linux mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -149,7 +149,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 fx-team non-unified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 7
