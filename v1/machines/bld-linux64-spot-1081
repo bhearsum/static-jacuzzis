@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_fx-team_emulator-jb_dep", 
-    "b2g_fx-team_emulator_dep"
+    "b2g_fx-team_emulator-jb_dep"
   ]
 }
