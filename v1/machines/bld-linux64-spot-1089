@@ -1,5 +1,6 @@
 {
   "builders": [
+    "b2g_fx-team_linux32_gecko-debug build", 
     "b2g_fx-team_linux64_gecko build"
   ]
 }
