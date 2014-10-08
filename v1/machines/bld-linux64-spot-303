@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Linux x86-64 mozilla-inbound leak test non-unified"
-  ]
-}
