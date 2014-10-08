@@ -313,7 +313,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
       "bld-linux64-spot-": 1
@@ -419,7 +419,7 @@
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 14
@@ -437,7 +437,7 @@
       "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
       "bld-linux64-spot-": 13
