@@ -1,6 +1,6 @@
 {
   "builders": [
-    "Android 4.2 x86 mozilla-inbound build", 
-    "Linux x86-64 mozilla-inbound leak test build"
+    "Linux x86-64 mozilla-inbound leak test build", 
+    "b2g_mozilla-inbound_linux64_gecko build"
   ]
 }
