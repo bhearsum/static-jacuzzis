@@ -155,7 +155,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-aurora leak test build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-aurora leak test non-unified": {
       "bld-linux64-spot-": 1
@@ -177,14 +177,14 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
     }, 
     "Linux x86-64 mozilla-inbound leak test non-unified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-inbound non-unified": {
       "bld-linux64-spot-": 3
@@ -216,7 +216,7 @@
       "bld-linux64-spot-": 8
     }, 
     "b2g_b2g-inbound_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_b2g-inbound_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 7
@@ -313,7 +313,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-aurora_emulator-debug_nonunified": {
       "bld-linux64-spot-": 1
@@ -337,7 +337,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_emulator_dep": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-aurora_emulator_nonunified": {
       "bld-linux64-spot-": 1
@@ -440,7 +440,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
       "bld-linux64-spot-": 8
