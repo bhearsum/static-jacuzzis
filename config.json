@@ -129,7 +129,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 b2g-inbound non-unified": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux x86-64 birch build": {
       "bld-linux64-ec2-": 0, 
@@ -225,7 +225,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_b2g-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "b2g_b2g-inbound_emulator-jb_nonunified": {
       "bld-linux64-spot-": 3
