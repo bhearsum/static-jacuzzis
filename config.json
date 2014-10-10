@@ -126,7 +126,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 b2g-inbound non-unified": {
       "bld-linux64-spot-": 6
@@ -149,7 +149,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 fx-team non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 5
@@ -216,7 +216,7 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_b2g-inbound_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 7
@@ -280,7 +280,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-kk-debug_nonunified": {
       "bld-linux64-spot-": 4
@@ -410,13 +410,13 @@
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator-debug_nonunified": {
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 5
@@ -434,7 +434,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator_nonunified": {
       "bld-linux64-spot-": 4
