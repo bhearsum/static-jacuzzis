@@ -295,7 +295,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_flame_eng_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_hamachi_eng_dep": {
       "bld-linux64-spot-": 4
@@ -304,10 +304,10 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_linux64_gecko build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_linux64_gecko-debug build": {
       "bld-linux64-spot-": 4
@@ -349,10 +349,10 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-aurora_linux32_gecko build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-aurora_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-aurora_linux64_gecko build": {
       "bld-linux64-spot-": 7
