@@ -61,7 +61,7 @@
       "bld-linux64-spot-": 1
     }, 
     "Android 4.2 x86 b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 fx-team build": {
       "bld-linux64-spot-": 6
@@ -255,7 +255,7 @@
       "bld-linux64-spot-": 9
     }, 
     "b2g_b2g-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
