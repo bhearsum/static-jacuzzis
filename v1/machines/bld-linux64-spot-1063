@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-inbound build", 
-    "Linux x86-64 mozilla-inbound build"
+    "Linux mozilla-inbound build"
   ]
 }
