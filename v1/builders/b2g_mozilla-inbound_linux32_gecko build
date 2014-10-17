@@ -7,12 +7,10 @@
     "bld-linux64-spot-102", 
     "bld-linux64-spot-1028", 
     "bld-linux64-spot-1068", 
-    "bld-linux64-spot-1087", 
     "bld-linux64-spot-142", 
     "bld-linux64-spot-194", 
     "bld-linux64-spot-312", 
     "bld-linux64-spot-386", 
-    "bld-linux64-spot-412", 
-    "bld-linux64-spot-426"
+    "bld-linux64-spot-412"
   ]
 }
