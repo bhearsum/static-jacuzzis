@@ -1,7 +1,6 @@
 {
   "machines": [
     "bld-linux64-spot-023", 
-    "bld-linux64-spot-075", 
     "bld-linux64-spot-076", 
     "bld-linux64-spot-1005", 
     "bld-linux64-spot-172", 
@@ -9,7 +8,6 @@
     "bld-linux64-spot-310", 
     "bld-linux64-spot-312", 
     "bld-linux64-spot-359", 
-    "bld-linux64-spot-393", 
     "bld-linux64-spot-418", 
     "bld-linux64-spot-419", 
     "bld-linux64-spot-436", 
