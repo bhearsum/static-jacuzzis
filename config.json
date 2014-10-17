@@ -225,7 +225,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_b2g-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 13
+      "bld-linux64-spot-": 12
     }, 
     "b2g_b2g-inbound_emulator-jb_nonunified": {
       "bld-linux64-spot-": 4
@@ -259,10 +259,10 @@
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "b2g_b2g-inbound_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "b2g_fx-team_emulator-debug_dep": {
       "bld-linux64-spot-": 4
@@ -307,7 +307,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_linux64_gecko build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_linux64_gecko-debug build": {
       "bld-linux64-spot-": 4
