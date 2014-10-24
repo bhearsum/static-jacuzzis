@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-inbound leak test build", 
-    "b2g_mozilla-inbound_linux32_gecko-debug build"
+    "Linux x86-64 mozilla-inbound leak test build"
   ]
 }
