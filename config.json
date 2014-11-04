@@ -252,7 +252,7 @@
     }, 
     "b2g_b2g-inbound_linux32_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 6
@@ -437,7 +437,7 @@
       "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
       "bld-linux64-spot-": 1
