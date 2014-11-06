@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 b2g-inbound non-unified", 
-    "b2g_b2g-inbound_linux64_gecko-debug build"
+    "Linux x86-64 b2g-inbound non-unified"
   ]
 }
