@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 fx-team build", 
-    "b2g_fx-team_hamachi_eng_dep"
+    "Android 4.2 x86 fx-team build"
   ]
 }
