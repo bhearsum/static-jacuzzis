@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-inbound_emulator-jb-debug_dep", 
     "b2g_mozilla-inbound_linux32_gecko-debug build"
   ]
 }
