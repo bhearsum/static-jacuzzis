@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Linux x86-64 b2g-inbound non-unified"
+    "Linux x86-64 b2g-inbound non-unified", 
+    "b2g_b2g-inbound_emulator-jb-debug_dep"
   ]
 }
