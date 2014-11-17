@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-inbound leak test build", 
     "b2g_mozilla-inbound_emulator-kk_nonunified"
   ]
 }
