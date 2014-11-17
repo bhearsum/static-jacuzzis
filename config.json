@@ -109,7 +109,7 @@
       "bld-linux64-spot-": 8
     }, 
     "Linux mozilla-aurora leak test build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux mozilla-central build": {
       "bld-linux64-spot-": 5
@@ -271,13 +271,13 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-jb_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-jb_nonunified": {
       "bld-linux64-spot-": 3
