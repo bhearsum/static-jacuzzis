@@ -419,7 +419,7 @@
       "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 9
@@ -428,7 +428,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator-kk_nonunified": {
       "bld-linux64-spot-": 5

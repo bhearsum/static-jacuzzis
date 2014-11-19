@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-inbound leak test build", 
-    "b2g_mozilla-inbound_emulator-jb-debug_nonunified"
+    "Linux x86-64 mozilla-inbound leak test build"
   ]
 }
