@@ -449,14 +449,14 @@
       "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-inbound_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }
   }
 }
