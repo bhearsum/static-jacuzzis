@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 Armv6 mozilla-aurora build", 
-    "Android 4.2 x86 mozilla-aurora build"
+    "Android 2.2 Armv6 mozilla-aurora build"
   ]
 }
