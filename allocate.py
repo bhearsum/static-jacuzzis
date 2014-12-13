@@ -17,6 +17,7 @@ Basic flow:
     - Otherwise, if we're less than p_decrease % full for more than
     t_decrease minutes, decrease the jacuzzi
 """
+from __future__ import print_function
 import time
 import json
 import logging
@@ -221,8 +222,10 @@ def main():
         if delta == 0:
             log.debug("%s OK", builder)
         else:
-            log.info("%s currently %is full and %is idle", builder, t_full0, t_idle0)
-            log.info("%s %i (%+i was %i) would result in %is full and %is idle", builder, n, delta, n0, t_full, t_idle)
+            print("%s currently %is full and %is idle" % (builder, t_full0,
+                                                          t_idle0))
+            print("%s %i (%+i was %i) would result in %is full and %is idle" %
+                  (builder, n, delta, n0, t_full, t_idle))
             for spec in 'bld-linux64-spot-', 'b-2008-ix-':
                 if spec in machine_types:
                     machine_types[spec] = max(machine_types[spec] + delta, 0)
