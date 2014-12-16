@@ -1,5 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-central_linux64_gecko-debug build"
+    "Linux fx-team build"
   ]
 }
