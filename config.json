@@ -431,13 +431,13 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-inbound_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
       "bld-linux64-spot-": 7
     }, 
     "b2g_mozilla-inbound_emulator_nonunified": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
       "bld-linux64-spot-": 1
