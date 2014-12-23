@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-inbound_emulator-debug_dep", 
     "b2g_mozilla-inbound_emulator-kk-debug_nonunified"
   ]
 }
