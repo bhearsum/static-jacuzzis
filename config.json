@@ -73,7 +73,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
