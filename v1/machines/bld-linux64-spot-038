@@ -1,5 +1,6 @@
 {
   "builders": [
+    "b2g_mozilla-inbound_emulator_nonunified", 
     "b2g_mozilla-inbound_linux64_gecko build"
   ]
 }
