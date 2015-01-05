@@ -1,5 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-aurora leak test build"
+    "b2g_b2g-inbound_emulator-debug_dep"
   ]
 }
