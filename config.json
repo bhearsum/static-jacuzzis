@@ -64,7 +64,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android 4.2 x86 fx-team build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
       "bld-linux64-spot-": 3
@@ -304,7 +304,7 @@
       "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_linux64_gecko build": {
       "bld-linux64-spot-": 4
@@ -410,13 +410,13 @@
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator-debug_nonunified": {
       "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 4
