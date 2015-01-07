@@ -1,6 +1,6 @@
 {
   "builders": [
-    "Android 2.2 Armv6 mozilla-inbound build", 
+    "Linux mozilla-inbound build", 
     "b2g_mozilla-inbound_emulator-jb_dep"
   ]
 }
