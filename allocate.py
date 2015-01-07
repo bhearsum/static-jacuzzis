@@ -50,7 +50,7 @@ def get_builder_activity(builder, starttime, endtime):
     # should. Or we should let builds break out of jacuzzis if they wait too
     # long
     q = sa.text("""
-                SELECT start_time, finish_time FROM buildrequests, builds WHERE
+                SELECT submitted_at, start_time, finish_time FROM buildrequests, builds WHERE
                 builds.brid = buildrequests.id AND
                 builds.start_time >= :starttime AND
                 builds.start_time < :endtime AND
@@ -62,8 +62,8 @@ def get_builder_activity(builder, starttime, endtime):
     # We've got a list of start/end times now. We need to process them both in
     # sorted time order. For each start time, increase our count; and for each
     # end time, decrease our count
-    times = [(start, 1) for (start, finish) in results]
-    times.extend((finish, -1) for (start, finish) in results if finish)
+    times = [(submitted, 1) for (submitted, start, finish) in results]
+    times.extend((finish, -1) for (submitted, start, finish) in results if finish)
     times.sort()
 
     count = 0
