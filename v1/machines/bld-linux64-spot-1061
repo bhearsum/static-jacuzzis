@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Linux x86-64 b2g-inbound leak test non-unified"
+    "Linux x86-64 b2g-inbound leak test non-unified", 
+    "b2g_b2g-inbound_linux64_gecko-debug build"
   ]
 }
