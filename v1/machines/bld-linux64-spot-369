@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux x86-64 mozilla-aurora leak test build", 
     "b2g_mozilla-aurora_hamachi_eng_dep"
   ]
 }
