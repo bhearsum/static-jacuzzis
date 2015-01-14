@@ -1,6 +1,6 @@
 {
   "builders": [
     "Linux mozilla-inbound leak test build", 
-    "Linux x86-64 mozilla-inbound non-unified"
+    "b2g_mozilla-inbound_hamachi_eng_dep"
   ]
 }
