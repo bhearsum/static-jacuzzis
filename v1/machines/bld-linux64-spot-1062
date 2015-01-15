@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 mozilla-aurora build", 
-    "Linux x86-64 mozilla-aurora leak test build"
+    "Android 4.2 x86 mozilla-aurora build"
   ]
 }
