@@ -126,7 +126,7 @@
       "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 b2g-inbound leak test non-unified": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 b2g-inbound non-unified": {
       "bld-linux64-spot-": 3
