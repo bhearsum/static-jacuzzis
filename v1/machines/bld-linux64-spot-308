@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-inbound non-unified", 
-    "b2g_mozilla-inbound_emulator-jb-debug_dep"
+    "Linux x86-64 mozilla-inbound non-unified"
   ]
 }
