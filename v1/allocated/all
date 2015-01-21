@@ -1,7 +1,6 @@
 {
   "machines": [
     "b-2008-ix-0009", 
-    "b-2008-ix-0011", 
     "b-2008-ix-0080", 
     "b-2008-ix-0081", 
     "b-2008-ix-0082", 
@@ -193,7 +192,6 @@
     "bld-linux64-spot-179", 
     "bld-linux64-spot-180", 
     "bld-linux64-spot-182", 
-    "bld-linux64-spot-192", 
     "bld-linux64-spot-193", 
     "bld-linux64-spot-194", 
     "bld-linux64-spot-198", 
