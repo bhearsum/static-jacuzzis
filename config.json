@@ -170,7 +170,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-central leak test non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-central non-unified": {
       "bld-linux64-spot-": 3

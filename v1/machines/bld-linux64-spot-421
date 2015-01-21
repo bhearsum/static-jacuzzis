@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-central leak test non-unified", 
     "b2g_mozilla-central_linux64_gecko build"
   ]
 }
