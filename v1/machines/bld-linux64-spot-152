@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 b2g-inbound build", 
-    "Linux x86-64 b2g-inbound leak test non-unified"
+    "Android 4.2 x86 b2g-inbound build"
   ]
 }
