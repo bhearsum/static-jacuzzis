@@ -146,10 +146,10 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team leak test non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 fx-team non-unified": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 6

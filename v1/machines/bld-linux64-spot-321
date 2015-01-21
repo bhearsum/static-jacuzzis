@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 2.2 fx-team build", 
-    "Linux x86-64 fx-team leak test non-unified"
+    "Android 2.2 fx-team build"
   ]
 }
