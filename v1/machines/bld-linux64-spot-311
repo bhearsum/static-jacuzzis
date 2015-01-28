@@ -1,6 +1,6 @@
 {
   "builders": [
-    "Linux birch leak test build", 
-    "Linux x86-64 birch build"
+    "Android armv7 API 11+ mozilla-inbound build", 
+    "Android armv7 API 9 mozilla-inbound build"
   ]
 }

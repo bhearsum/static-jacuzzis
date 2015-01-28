@@ -1,6 +1,6 @@
 {
   "builders": [
-    "Android 2.2 mozilla-aurora build", 
-    "Linux x86-64 mozilla-aurora non-unified"
+    "Android armv7 API 11+ mozilla-inbound build", 
+    "Android armv7 API 9 mozilla-inbound build"
   ]
 }

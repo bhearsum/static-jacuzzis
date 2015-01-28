@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Linux x86-64 fx-team leak test non-unified"
-  ]
-}

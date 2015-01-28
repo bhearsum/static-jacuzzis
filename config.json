@@ -1,41 +1,5 @@
 {
   "builders": {
-    "Android armv7 API 9 mozilla-central build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ mozilla-central build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 9 mozilla-inbound build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ mozilla-inbound build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 9 fx-team build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ fx-team build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ fx-team debug build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 9 b2g-inbound build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ b2g-inbound build": {
-      "bld-linux64-spot-": 1
-    },
-    "Android armv7 API 11+ b2g-inbound debug build": {
-      "bld-linux64-spot-": 1
-    },
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
@@ -50,6 +14,42 @@
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
       "bld-linux64-spot-": 10
+    }, 
+    "Android armv7 API 11+ b2g-inbound build": {
+      "bld-linux64-spot-": 4
+    }, 
+    "Android armv7 API 11+ b2g-inbound debug build": {
+      "bld-linux64-spot-": 4
+    }, 
+    "Android armv7 API 11+ fx-team build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 11+ fx-team debug build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 11+ mozilla-central build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 11+ mozilla-central debug build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 11+ mozilla-inbound build": {
+      "bld-linux64-spot-": 10
+    }, 
+    "Android armv7 API 11+ mozilla-inbound debug build": {
+      "bld-linux64-spot-": 10
+    }, 
+    "Android armv7 API 9 b2g-inbound build": {
+      "bld-linux64-spot-": 4
+    }, 
+    "Android armv7 API 9 fx-team build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 9 mozilla-central build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Android armv7 API 9 mozilla-inbound build": {
+      "bld-linux64-spot-": 9
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
