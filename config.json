@@ -18,31 +18,16 @@
     "Android 2.2 Debug b2g-inbound build": {
       "bld-linux64-spot-": 1
     }, 
-    "Android 2.2 Debug b2g-inbound non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
     "Android 2.2 Debug fx-team build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug fx-team non-unified": {
       "bld-linux64-spot-": 1
     }, 
     "Android 2.2 Debug mozilla-aurora build": {
       "bld-linux64-spot-": 1
     }, 
-    "Android 2.2 Debug mozilla-aurora non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
     "Android 2.2 Debug mozilla-central build": {
       "bld-linux64-spot-": 1
     }, 
-    "Android 2.2 Debug mozilla-central non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
     "Android 2.2 Debug mozilla-inbound build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug mozilla-inbound non-unified": {
       "bld-linux64-spot-": 1
     }, 
     "Android 2.2 b2g-inbound build": {
@@ -91,14 +76,6 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
-    "Linux birch build": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux birch leak test build": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 1
-    }, 
     "Linux fx-team build": {
       "bld-linux64-spot-": 5
     }, 
@@ -125,31 +102,11 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 10
     }, 
-    "Linux x86-64 b2g-inbound leak test non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 b2g-inbound non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 birch build": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 birch leak test build": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 1
-    }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team leak test build": {
       "bld-linux64-spot-": 5
-    }, 
-    "Linux x86-64 fx-team leak test non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 fx-team non-unified": {
-      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 5
@@ -157,23 +114,11 @@
     "Linux x86-64 mozilla-aurora leak test build": {
       "bld-linux64-spot-": 4
     }, 
-    "Linux x86-64 mozilla-aurora leak test non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 mozilla-aurora non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
     "Linux x86-64 mozilla-central build": {
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-central leak test build": {
       "bld-linux64-spot-": 5
-    }, 
-    "Linux x86-64 mozilla-central leak test non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 mozilla-central non-unified": {
-      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
@@ -182,12 +127,6 @@
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 10
-    }, 
-    "Linux x86-64 mozilla-inbound leak test non-unified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 mozilla-inbound non-unified": {
-      "bld-linux64-spot-": 1
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
