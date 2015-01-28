@@ -1,50 +1,41 @@
 {
   "builders": {
-    "Android 2.2 Armv6 b2g-inbound build": {
+    "Android armv7 API 9 mozilla-central build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Armv6 fx-team build": {
+    },
+    "Android armv7 API 11+ mozilla-central build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Armv6 mozilla-aurora build": {
+    },
+    "Android armv7 API 11+ mozilla-central debug build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Armv6 mozilla-central build": {
+    },
+    "Android armv7 API 9 mozilla-inbound build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Armv6 mozilla-inbound build": {
+    },
+    "Android armv7 API 11+ mozilla-inbound build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug b2g-inbound build": {
+    },
+    "Android armv7 API 11+ mozilla-inbound debug build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug fx-team build": {
+    },
+    "Android armv7 API 9 fx-team build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug mozilla-aurora build": {
+    },
+    "Android armv7 API 11+ fx-team build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug mozilla-central build": {
+    },
+    "Android armv7 API 11+ fx-team debug build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 Debug mozilla-inbound build": {
+    },
+    "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 b2g-inbound build": {
+    },
+    "Android armv7 API 11+ b2g-inbound build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 fx-team build": {
+    },
+    "Android armv7 API 11+ b2g-inbound debug build": {
       "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 mozilla-aurora build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 mozilla-central build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Android 2.2 mozilla-inbound build": {
-      "bld-linux64-spot-": 1
-    }, 
+    },
     "Android 4.2 x86 b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
