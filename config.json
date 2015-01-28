@@ -73,7 +73,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -119,7 +119,7 @@
     }, 
     "Linux mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -181,7 +181,7 @@
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test non-unified": {
       "bld-linux64-spot-": 1
@@ -449,7 +449,7 @@
       "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 13
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
