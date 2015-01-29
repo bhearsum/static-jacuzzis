@@ -37,7 +37,7 @@
       "bld-linux64-spot-": 8
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -139,7 +139,7 @@
       "b-2008-ix-": 13
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 14
+      "b-2008-ix-": 13
     }, 
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
       "b-2008-ix-": 17
