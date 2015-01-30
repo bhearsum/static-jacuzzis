@@ -204,7 +204,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_fx-team_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 1
@@ -222,7 +222,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_fx-team_emulator_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator_nonunified": {
       "bld-linux64-spot-": 1
