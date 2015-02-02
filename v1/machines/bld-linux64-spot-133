@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-aurora build", 
-    "b2g_mozilla-aurora_emulator-kk-debug_nonunified"
+    "Linux x86-64 mozilla-aurora build"
   ]
 }

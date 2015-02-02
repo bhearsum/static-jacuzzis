@@ -1,6 +1,6 @@
 {
   "builders": [
     "Android armv7 API 11+ mozilla-inbound build", 
-    "b2g_mozilla-inbound_emulator_nonunified"
+    "b2g_mozilla-inbound_flame-kk_eng_dep"
   ]
 }
