@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 11+ b2g-inbound debug build", 
     "b2g_b2g-inbound_hamachi_eng_dep"
   ]
 }
