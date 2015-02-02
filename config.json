@@ -158,7 +158,7 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
     }, 
-    "b2g_b2g-inbound_flame_eng_dep": {
+    "b2g_b2g-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_b2g-inbound_hamachi_eng_dep": {
@@ -191,7 +191,7 @@
     "b2g_fx-team_emulator_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_fx-team_flame_eng_dep": {
+    "b2g_fx-team_flame-kk_eng_dep": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_fx-team_hamachi_eng_dep": {
@@ -251,7 +251,7 @@
     "b2g_mozilla-central_emulator_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_mozilla-central_flame_eng_dep": {
+    "b2g_mozilla-central_flame-kk_eng_dep": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-central_hamachi_eng_dep": {
@@ -282,7 +282,7 @@
     "b2g_mozilla-inbound_emulator_dep": {
       "bld-linux64-spot-": 12
     }, 
-    "b2g_mozilla-inbound_flame_eng_dep": {
+    "b2g_mozilla-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
