@@ -148,33 +148,15 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
     }, 
-    "b2g_b2g-inbound_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_b2g-inbound_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 7
-    }, 
-    "b2g_b2g-inbound_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_b2g-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 6
     }, 
-    "b2g_b2g-inbound_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_b2g-inbound_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_b2g-inbound_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_b2g-inbound_emulator_dep": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
-    }, 
-    "b2g_b2g-inbound_emulator_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_b2g-inbound_flame_eng_dep": {
       "bld-linux64-spot-": 1
@@ -200,32 +182,14 @@
     "b2g_fx-team_emulator-debug_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_fx-team_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_fx-team_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 5
-    }, 
-    "b2g_fx-team_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_fx-team_emulator-jb_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_fx-team_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_fx-team_emulator_dep": {
       "bld-linux64-spot-": 5
-    }, 
-    "b2g_fx-team_emulator_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_fx-team_flame_eng_dep": {
       "bld-linux64-spot-": 1
@@ -248,31 +212,13 @@
     "b2g_mozilla-aurora_emulator-debug_dep": {
       "bld-linux64-spot-": 1
     }, 
-    "b2g_mozilla-aurora_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-aurora_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-aurora_emulator-jb-debug_nonunified": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_emulator-jb_dep": {
       "bld-linux64-spot-": 1
     }, 
-    "b2g_mozilla-aurora_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-aurora_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-aurora_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-aurora_emulator_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-aurora_emulator_nonunified": {
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-aurora_flame_eng_dep": {
@@ -296,32 +242,14 @@
     "b2g_mozilla-central_emulator-debug_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_mozilla-central_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-central_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-central_emulator-jb_dep": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_mozilla-central_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-central_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-central_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-central_emulator_dep": {
       "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_emulator_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-central_flame_eng_dep": {
       "bld-linux64-spot-": 1
@@ -345,32 +273,14 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 13
     }, 
-    "b2g_mozilla-inbound_emulator-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 14
-    }, 
-    "b2g_mozilla-inbound_emulator-jb-debug_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 12
     }, 
-    "b2g_mozilla-inbound_emulator-jb_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_emulator-kk-debug_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_emulator-kk_nonunified": {
-      "bld-linux64-spot-": 1
-    }, 
     "b2g_mozilla-inbound_emulator_dep": {
       "bld-linux64-spot-": 12
-    }, 
-    "b2g_mozilla-inbound_emulator_nonunified": {
-      "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-inbound_flame_eng_dep": {
       "bld-linux64-spot-": 1
