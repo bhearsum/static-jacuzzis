@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 mozilla-inbound build", 
     "b2g_mozilla-inbound_linux32_gecko-debug build"
   ]
 }
