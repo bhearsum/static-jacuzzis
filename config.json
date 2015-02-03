@@ -91,7 +91,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
