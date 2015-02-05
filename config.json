@@ -94,7 +94,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 fx-team build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team leak test build": {
       "bld-linux64-spot-": 5
@@ -207,7 +207,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_linux64_gecko-debug build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-aurora_emulator-debug_dep": {
       "bld-linux64-spot-": 1
