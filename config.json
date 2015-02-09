@@ -28,10 +28,10 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-central build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
       "bld-linux64-spot-": 8
@@ -255,7 +255,7 @@
       "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-central_hamachi_eng_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_linux32_gecko build": {
       "bld-linux64-spot-": 5

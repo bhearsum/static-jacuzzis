@@ -1,6 +1,5 @@
 {
   "builders": [
-    "b2g_mozilla-central_flame-kk_eng_dep", 
-    "b2g_mozilla-central_hamachi_eng_dep"
+    "b2g_mozilla-central_flame-kk_eng_dep"
   ]
 }
