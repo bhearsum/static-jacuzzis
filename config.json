@@ -113,7 +113,7 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -271,10 +271,10 @@
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 15
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 13
+      "bld-linux64-spot-": 14
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 13
