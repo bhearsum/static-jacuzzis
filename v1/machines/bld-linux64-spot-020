@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 9 b2g-inbound build", 
     "b2g_b2g-inbound_emulator-jb-debug_dep"
   ]
 }
