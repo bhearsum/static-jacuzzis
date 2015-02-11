@@ -31,7 +31,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
       "bld-linux64-spot-": 9
@@ -68,7 +68,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Linux fx-team leak test build": {
       "bld-linux64-spot-": 5
@@ -180,7 +180,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-debug_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_fx-team_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 5
