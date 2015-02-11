@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 fx-team build", 
-    "b2g_fx-team_hamachi_eng_dep"
+    "Linux x86-64 fx-team build"
   ]
 }
