@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android 4.2 x86 mozilla-aurora build", 
     "b2g_mozilla-aurora_emulator-jb-debug_dep"
   ]
 }
