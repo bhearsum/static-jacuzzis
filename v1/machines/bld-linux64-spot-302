@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android armv7 API 11+ mozilla-inbound build", 
+    "Linux mozilla-inbound leak test build"
+  ]
+}
