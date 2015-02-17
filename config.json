@@ -87,7 +87,7 @@
     }, 
     "Linux mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 13
+      "bld-linux64-spot-": 12
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -296,7 +296,7 @@
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 13
     }, 
     "b2g_mozilla-inbound_linux64_gecko-debug build": {
       "bld-linux64-spot-": 3
