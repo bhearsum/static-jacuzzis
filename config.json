@@ -136,13 +136,13 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "b-2008-ix-": 16
+      "b-2008-ix-": 15
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
       "b-2008-ix-": 15
     }, 
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
-      "b-2008-ix-": 18
+      "b-2008-ix-": 17
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
