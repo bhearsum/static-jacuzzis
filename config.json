@@ -113,7 +113,7 @@
     }, 
     "Linux x86-64 mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
@@ -139,7 +139,7 @@
       "b-2008-ix-": 13
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 14
+      "b-2008-ix-": 13
     }, 
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
       "b-2008-ix-": 13
