@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 11+ fx-team debug build", 
-    "b2g_fx-team_emulator-debug_dep"
+    "Android armv7 API 11+ fx-team debug build"
   ]
 }
