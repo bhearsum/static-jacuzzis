@@ -74,7 +74,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-aurora build": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 8
     }, 
     "Linux mozilla-aurora leak test build": {
       "bld-linux64-spot-": 7
@@ -91,7 +91,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
@@ -289,7 +289,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 5
