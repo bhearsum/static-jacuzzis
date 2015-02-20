@@ -2,7 +2,6 @@
   "machines": [
     "bld-linux64-spot-003", 
     "bld-linux64-spot-023", 
-    "bld-linux64-spot-093", 
     "bld-linux64-spot-155", 
     "bld-linux64-spot-347", 
     "bld-linux64-spot-367", 
