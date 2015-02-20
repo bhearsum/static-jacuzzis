@@ -13,7 +13,7 @@
       "bld-linux64-spot-": 7
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Android armv7 API 11+ b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -274,7 +274,7 @@
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_emulator-jb-debug_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 14
@@ -283,7 +283,7 @@
       "bld-linux64-spot-": 14
     }, 
     "b2g_mozilla-inbound_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 15
     }, 
     "b2g_mozilla-inbound_hamachi_eng_dep": {
       "bld-linux64-spot-": 1
