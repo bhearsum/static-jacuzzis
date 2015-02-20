@@ -19,7 +19,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android armv7 API 11+ b2g-inbound debug build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 11+ fx-team build": {
       "bld-linux64-spot-": 6
@@ -280,7 +280,7 @@
       "bld-linux64-spot-": 14
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 15
