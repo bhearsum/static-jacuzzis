@@ -71,7 +71,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux fx-team leak test build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 8
     }, 
     "Linux mozilla-aurora build": {
       "bld-linux64-spot-": 8
@@ -167,7 +167,7 @@
     }, 
     "b2g_b2g-inbound_linux32_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_linux32_gecko-debug build": {
       "bld-linux64-spot-": 3
@@ -180,7 +180,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_emulator-debug_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-jb-debug_dep": {
       "bld-linux64-spot-": 5
@@ -192,7 +192,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_hamachi_eng_dep": {
       "bld-linux64-spot-": 1
@@ -204,7 +204,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_fx-team_linux64_gecko build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_linux64_gecko-debug build": {
       "bld-linux64-spot-": 3
