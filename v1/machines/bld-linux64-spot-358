@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 4.2 x86 fx-team build"
+    "Android 4.2 x86 fx-team build", 
+    "b2g_fx-team_linux32_gecko build"
   ]
 }
