@@ -1,5 +1,7 @@
 {
   "machines": [
+    "bld-linux64-spot-083", 
+    "bld-linux64-spot-085", 
     "bld-linux64-spot-089", 
     "bld-linux64-spot-090", 
     "bld-linux64-spot-094", 
@@ -13,7 +15,9 @@
     "bld-linux64-spot-1062", 
     "bld-linux64-spot-1064", 
     "bld-linux64-spot-1068", 
+    "bld-linux64-spot-1080", 
     "bld-linux64-spot-1081", 
+    "bld-linux64-spot-1082", 
     "bld-linux64-spot-1083", 
     "bld-linux64-spot-1093", 
     "bld-linux64-spot-136", 
@@ -26,7 +30,13 @@
     "bld-linux64-spot-318", 
     "bld-linux64-spot-344", 
     "bld-linux64-spot-359", 
+    "bld-linux64-spot-362", 
+    "bld-linux64-spot-363", 
+    "bld-linux64-spot-364", 
+    "bld-linux64-spot-367", 
     "bld-linux64-spot-368", 
+    "bld-linux64-spot-441", 
+    "bld-linux64-spot-494", 
     "bld-linux64-spot-498", 
     "bld-linux64-spot-499"
   ]
