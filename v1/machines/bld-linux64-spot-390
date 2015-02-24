@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android armv7 API 11+ mozilla-inbound debug build"
+    "Android armv7 API 11+ mozilla-inbound debug build", 
+    "b2g_mozilla-inbound_emulator-jb-debug_dep"
   ]
 }
