@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-aurora leak test build", 
-    "Linux x86-64 mozilla-aurora leak test build"
+    "Linux mozilla-aurora leak test build"
   ]
 }
