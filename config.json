@@ -40,7 +40,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 9 b2g-inbound build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 9 fx-team build": {
       "bld-linux64-spot-": 5
@@ -87,7 +87,7 @@
     }, 
     "Linux mozilla-inbound build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
