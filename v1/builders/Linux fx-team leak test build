@@ -16,7 +16,6 @@
     "bld-linux64-spot-1064", 
     "bld-linux64-spot-1068", 
     "bld-linux64-spot-1070", 
-    "bld-linux64-spot-1081", 
     "bld-linux64-spot-1082", 
     "bld-linux64-spot-145", 
     "bld-linux64-spot-159", 
@@ -30,7 +29,6 @@
     "bld-linux64-spot-359", 
     "bld-linux64-spot-363", 
     "bld-linux64-spot-364", 
-    "bld-linux64-spot-368", 
     "bld-linux64-spot-371", 
     "bld-linux64-spot-379", 
     "bld-linux64-spot-391", 
@@ -44,7 +42,6 @@
     "bld-linux64-spot-417", 
     "bld-linux64-spot-440", 
     "bld-linux64-spot-441", 
-    "bld-linux64-spot-443", 
-    "bld-linux64-spot-498"
+    "bld-linux64-spot-443"
   ]
 }
