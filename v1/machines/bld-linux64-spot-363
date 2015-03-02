@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 9 fx-team build", 
-    "Linux fx-team leak test build"
+    "Android armv7 API 9 fx-team build"
   ]
 }
