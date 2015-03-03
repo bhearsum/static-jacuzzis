@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-inbound build", 
     "b2g_mozilla-inbound_flame-kk_eng_dep"
   ]
 }
