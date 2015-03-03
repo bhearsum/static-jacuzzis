@@ -13,7 +13,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -37,7 +37,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -49,7 +49,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 9 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -91,7 +91,7 @@
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
@@ -232,7 +232,7 @@
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }
   }
 }
