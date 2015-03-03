@@ -144,10 +144,6 @@
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
       "b-2008-ix-": 15
     }, 
-    "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 7
-    }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
@@ -156,7 +152,11 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator-l_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 7
+    }, 
+    "b2g_b2g-inbound_emulator_dep": {
+      "bld-linux64-ec2-": 0, 
+      "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 7
@@ -169,9 +169,6 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 6
     }, 
-    "b2g_fx-team_emulator_dep": {
-      "bld-linux64-spot-": 5
-    }, 
     "b2g_fx-team_emulator-debug_dep": {
       "bld-linux64-spot-": 5
     }, 
@@ -179,6 +176,9 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-l_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_fx-team_emulator_dep": {
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_flame-kk_eng_dep": {
@@ -190,9 +190,6 @@
     "b2g_fx-team_linux64_gecko build": {
       "bld-linux64-spot-": 4
     }, 
-    "b2g_mozilla-central_emulator_dep": {
-      "bld-linux64-spot-": 5
-    }, 
     "b2g_mozilla-central_emulator-debug_dep": {
       "bld-linux64-spot-": 5
     }, 
@@ -200,6 +197,9 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-central_emulator-l_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-central_emulator_dep": {
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-central_flame-kk_eng_dep": {
@@ -211,9 +211,6 @@
     "b2g_mozilla-central_linux64_gecko build": {
       "bld-linux64-spot-": 5
     }, 
-    "b2g_mozilla-inbound_emulator_dep": {
-      "bld-linux64-spot-": 13
-    }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 13
@@ -222,7 +219,10 @@
       "bld-linux64-spot-": 14
     }, 
     "b2g_mozilla-inbound_emulator-l_dep": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 13
+    }, 
+    "b2g_mozilla-inbound_emulator_dep": {
+      "bld-linux64-spot-": 13
     }, 
     "b2g_mozilla-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 15
