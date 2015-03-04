@@ -67,6 +67,12 @@
       "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 4
     }, 
+    "Linux b2g-inbound build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Linux b2g-inbound leak test build": {
+      "bld-linux64-spot-": 5
+    }, 
     "Linux fx-team build": {
       "bld-linux64-spot-": 5
     }, 
@@ -79,6 +85,12 @@
     "Linux mozilla-aurora leak test build": {
       "bld-linux64-spot-": 3
     }, 
+    "Linux mozilla-b2g37_v2_2 build": {
+      "bld-linux64-spot-": 4
+    }, 
+    "Linux mozilla-b2g37_v2_2 leak test build": {
+      "bld-linux64-spot-": 3
+    }, 
     "Linux mozilla-central build": {
       "bld-linux64-spot-": 5
     }, 
@@ -86,18 +98,31 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-inbound build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 8
     }, 
     "Linux mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 Mulet b2g-inbound build": {
       "bld-linux64-spot-": 5
     }, 
+    "Linux x86-64 Mulet fx-team build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Linux x86-64 Mulet mozilla-b2g37_v2_2 build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Linux x86-64 Mulet mozilla-central build": {
+      "bld-linux64-spot-": 5
+    }, 
     "Linux x86-64 Mulet mozilla-inbound build": {
       "bld-linux64-spot-": 8
+    }, 
+    "Linux x86-64 b2g-inbound build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "Linux x86-64 b2g-inbound leak test build": {
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
@@ -111,6 +136,12 @@
     "Linux x86-64 mozilla-aurora leak test build": {
       "bld-linux64-spot-": 3
     }, 
+    "Linux x86-64 mozilla-b2g37_v2_2 build": {
+      "bld-linux64-spot-": 4
+    }, 
+    "Linux x86-64 mozilla-b2g37_v2_2 leak test build": {
+      "bld-linux64-spot-": 3
+    }, 
     "Linux x86-64 mozilla-central build": {
       "bld-linux64-spot-": 5
     }, 
@@ -118,11 +149,9 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-inbound build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 9
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
@@ -151,7 +180,6 @@
       "b-2008-ix-": 14
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator-jb_dep": {
@@ -161,18 +189,15 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_linux32_gecko build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_linux64_gecko build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-debug_dep": {
@@ -196,6 +221,27 @@
     "b2g_fx-team_linux64_gecko build": {
       "bld-linux64-spot-": 4
     }, 
+    "b2g_mozilla-b2g37_v2_2_emulator-debug_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_emulator-jb_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_emulator-l_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_emulator_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_flame-kk_eng_dep": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_linux32_gecko build": {
+      "bld-linux64-spot-": 5
+    }, 
+    "b2g_mozilla-b2g37_v2_2_linux64_gecko build": {
+      "bld-linux64-spot-": 5
+    }, 
     "b2g_mozilla-central_emulator-debug_dep": {
       "bld-linux64-spot-": 5
     }, 
@@ -218,7 +264,6 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
@@ -237,7 +282,6 @@
       "bld-linux64-spot-": 8
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
-      "bld-linux64-ec2-": 0, 
       "bld-linux64-spot-": 8
     }
   }
