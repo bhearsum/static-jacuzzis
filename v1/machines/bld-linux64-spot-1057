@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Android armv7 API 11+ mozilla-inbound build", 
     "Linux x86-64 Mulet mozilla-inbound build"
   ]
 }

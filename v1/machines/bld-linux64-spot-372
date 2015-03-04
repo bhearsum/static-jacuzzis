@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux x86-64 Mulet fx-team build", 
     "b2g_fx-team_flame-kk_eng_dep"
   ]
 }

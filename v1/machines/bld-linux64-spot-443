@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 11+ b2g-inbound debug build", 
     "Linux b2g-inbound leak test build"
   ]
 }

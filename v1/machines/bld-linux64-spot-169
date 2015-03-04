@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Linux mozilla-b2g37_v2_2 build", 
+    "b2g_mozilla-b2g37_v2_2_emulator-debug_dep"
+  ]
+}
