@@ -201,13 +201,13 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-debug_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "b2g_fx-team_emulator-jb_dep": {
       "bld-linux64-spot-": 5
     }, 
     "b2g_fx-team_emulator-l_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "b2g_fx-team_emulator_dep": {
       "bld-linux64-spot-": 6
