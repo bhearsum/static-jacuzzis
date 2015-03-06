@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Android armv7 API 11+ mozilla-central build", 
-    "Linux x86-64 Mulet mozilla-central build"
-  ]
-}

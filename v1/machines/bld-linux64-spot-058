@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Linux b2g-inbound leak test build", 
-    "Linux x86-64 b2g-inbound build"
-  ]
-}
