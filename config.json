@@ -104,7 +104,7 @@
       "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 Mulet b2g-inbound build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 Mulet fx-team build": {
       "bld-linux64-spot-": 4
@@ -183,13 +183,13 @@
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_emulator-l_dep": {
       "bld-linux64-spot-": 7
     }, 
     "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-spot-": 7
+      "bld-linux64-spot-": 6
     }, 
     "b2g_b2g-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 7
