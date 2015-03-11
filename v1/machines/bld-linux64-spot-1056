@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Linux x86-64 Mulet b2g-inbound build"
+    "Linux x86-64 Mulet b2g-inbound build", 
+    "b2g_b2g-inbound_emulator_dep"
   ]
 }
