@@ -4,7 +4,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 4.2 x86 fx-team build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
       "bld-linux64-spot-": 5
@@ -122,7 +122,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 Mulet mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 7
     }, 
     "Linux x86-64 b2g-inbound build": {
       "bld-linux64-spot-": 3
