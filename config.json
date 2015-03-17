@@ -131,7 +131,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 fx-team build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 fx-team leak test build": {
       "bld-linux64-spot-": 6
