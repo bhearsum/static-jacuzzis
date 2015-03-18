@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 Mulet fx-team build", 
-    "b2g_fx-team_emulator-debug_dep"
+    "Linux x86-64 Mulet fx-team build"
   ]
 }
