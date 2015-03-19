@@ -13,7 +13,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ b2g-inbound build": {
       "bld-linux64-spot-": 3
@@ -43,7 +43,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android armv7 API 9 fx-team build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 9 mozilla-central build": {
       "bld-linux64-spot-": 5
@@ -92,7 +92,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux mozilla-b2g37_v2_2 leak test build": {
       "bld-linux64-spot-": 4
@@ -116,7 +116,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 Mulet mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 Mulet mozilla-central build": {
       "bld-linux64-spot-": 3
@@ -143,7 +143,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 mozilla-b2g37_v2_2 leak test build": {
       "bld-linux64-spot-": 4
@@ -158,7 +158,7 @@
       "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
