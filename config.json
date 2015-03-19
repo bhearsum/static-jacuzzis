@@ -92,7 +92,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux mozilla-b2g37_v2_2 leak test build": {
       "bld-linux64-spot-": 4
