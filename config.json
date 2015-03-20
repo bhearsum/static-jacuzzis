@@ -4,7 +4,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android 4.2 x86 fx-team build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-aurora build": {
       "bld-linux64-spot-": 4
@@ -83,7 +83,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux fx-team leak test build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux mozilla-aurora build": {
       "bld-linux64-spot-": 5
