@@ -110,10 +110,10 @@
       "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 Mulet b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 Mulet fx-team build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 Mulet mozilla-b2g37_v2_2 build": {
       "bld-linux64-spot-": 1
