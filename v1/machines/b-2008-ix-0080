@@ -1,5 +1,6 @@
 {
   "builders": [
-    "WINNT 6.1 x86-64 mozilla-aurora build"
+    "WINNT 6.1 x86-64 mozilla-aurora build", 
+    "WINNT 6.1 x86-64 mozilla-aurora leak test build"
   ]
 }
