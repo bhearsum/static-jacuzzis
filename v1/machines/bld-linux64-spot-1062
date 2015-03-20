@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-b2g37_v2_2 build", 
-    "b2g_mozilla-b2g37_v2_2_linux64_gecko build"
+    "Linux x86-64 mozilla-b2g37_v2_2 build"
   ]
 }
