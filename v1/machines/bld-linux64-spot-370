@@ -1,6 +1,6 @@
 {
   "builders": [
-    "Android armv7 API 11+ b2g-inbound debug build", 
+    "Android armv7 API 11+ b2g-inbound build", 
     "Linux x86-64 Mulet b2g-inbound build"
   ]
 }
