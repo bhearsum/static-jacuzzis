@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 Mulet mozilla-inbound build", 
     "b2g_mozilla-inbound_emulator-debug_dep"
   ]
 }
