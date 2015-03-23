@@ -13,7 +13,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ b2g-inbound build": {
       "bld-linux64-spot-": 3
@@ -158,7 +158,7 @@
       "bld-linux64-spot-": 10
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 10
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
