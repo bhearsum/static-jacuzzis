@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Firefox mozilla-aurora win64 l10n nightly", 
-    "WINNT 6.1 x86-64 mozilla-aurora leak test build"
+    "Firefox mozilla-aurora win64 l10n nightly"
   ]
 }
