@@ -143,10 +143,10 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 mozilla-b2g37_v2_2 leak test build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 mozilla-central build": {
       "bld-linux64-spot-": 5
