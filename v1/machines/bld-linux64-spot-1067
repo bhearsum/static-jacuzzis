@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-central leak test build", 
-    "b2g_mozilla-central_emulator-jb_dep"
+    "Linux x86-64 mozilla-central leak test build"
   ]
 }
