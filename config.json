@@ -288,7 +288,7 @@
       "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-inbound_emulator-l_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
       "bld-linux64-spot-": 14
