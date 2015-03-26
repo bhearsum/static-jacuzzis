@@ -37,7 +37,7 @@
       "bld-linux64-spot-": 13
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 13
     }, 
     "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -49,7 +49,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 9 mozilla-inbound build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 13
     }, 
     "Firefox mozilla-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -104,7 +104,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-inbound build": {
-      "bld-linux64-spot-": 13
+      "bld-linux64-spot-": 14
     }, 
     "Linux mozilla-inbound leak test build": {
       "bld-linux64-spot-": 14
