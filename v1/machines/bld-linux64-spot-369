@@ -1,6 +1,6 @@
 {
   "builders": [
     "Android armv7 API 11+ mozilla-inbound debug build", 
-    "Linux x86-64 mozilla-inbound build"
+    "b2g_mozilla-inbound_emulator_dep"
   ]
 }
