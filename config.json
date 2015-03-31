@@ -37,7 +37,7 @@
       "bld-linux64-spot-": 14
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 14
+      "bld-linux64-spot-": 13
     }, 
     "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 4
@@ -282,7 +282,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-spot-": 17
+      "bld-linux64-spot-": 16
     }, 
     "b2g_mozilla-inbound_emulator-jb_dep": {
       "bld-linux64-spot-": 1
@@ -297,7 +297,7 @@
       "bld-linux64-spot-": 18
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
       "bld-linux64-spot-": 8
