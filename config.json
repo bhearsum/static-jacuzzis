@@ -207,7 +207,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_b2g-inbound_flame-kk_eng_dep": {
       "bld-linux64-spot-": 6
