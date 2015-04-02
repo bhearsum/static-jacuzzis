@@ -300,7 +300,7 @@
       "bld-linux64-spot-": 3
     }, 
     "b2g_mozilla-inbound_linux64_gecko build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 1
     }
   }
 }
