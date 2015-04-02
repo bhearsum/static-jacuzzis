@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 11+ mozilla-inbound debug build", 
     "Linux mozilla-inbound build"
   ]
 }
