@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "OS X 10.7 mozilla-inbound build"
+  ]
+}

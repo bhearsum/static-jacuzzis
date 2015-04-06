@@ -1,0 +1,20 @@
+{
+  "machines": [
+    "bld-lion-r5-051", 
+    "bld-lion-r5-060", 
+    "bld-lion-r5-061", 
+    "bld-lion-r5-062", 
+    "bld-lion-r5-063", 
+    "bld-lion-r5-064", 
+    "bld-lion-r5-065", 
+    "bld-lion-r5-066", 
+    "bld-lion-r5-067", 
+    "bld-lion-r5-081", 
+    "bld-lion-r5-082", 
+    "bld-lion-r5-083", 
+    "bld-lion-r5-084", 
+    "bld-lion-r5-085", 
+    "bld-lion-r5-088", 
+    "bld-lion-r5-089"
+  ]
+}

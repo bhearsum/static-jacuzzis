@@ -19,6 +19,7 @@
     "b-2008-ix-0067", 
     "b-2008-ix-0080", 
     "b-2008-ix-0081", 
+    "b-2008-ix-0082", 
     "b-2008-ix-0084", 
     "b-2008-ix-0086", 
     "b-2008-ix-0087", 
@@ -286,6 +287,22 @@
     "bld-linux64-spot-495", 
     "bld-linux64-spot-497", 
     "bld-linux64-spot-498", 
-    "bld-linux64-spot-499"
+    "bld-linux64-spot-499", 
+    "bld-lion-r5-051", 
+    "bld-lion-r5-060", 
+    "bld-lion-r5-061", 
+    "bld-lion-r5-062", 
+    "bld-lion-r5-063", 
+    "bld-lion-r5-064", 
+    "bld-lion-r5-065", 
+    "bld-lion-r5-066", 
+    "bld-lion-r5-067", 
+    "bld-lion-r5-081", 
+    "bld-lion-r5-082", 
+    "bld-lion-r5-083", 
+    "bld-lion-r5-084", 
+    "bld-lion-r5-085", 
+    "bld-lion-r5-088", 
+    "bld-lion-r5-089"
   ]
 }
