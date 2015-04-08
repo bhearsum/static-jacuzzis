@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "Linux x86-64 mozilla-b2g37_v2_2 build"
+  ]
+}
