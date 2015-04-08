@@ -46,7 +46,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 9 mozilla-central build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 9 mozilla-inbound build": {
       "bld-linux64-spot-": 7
@@ -161,7 +161,7 @@
       "bld-linux64-spot-": 8
     }, 
     "OS X 10.7 mozilla-inbound build": {
-      "bld-lion-r5-": 13
+      "bld-lion-r5-": 14
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
