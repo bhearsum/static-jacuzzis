@@ -1,7 +1,7 @@
 {
   "builders": {
     "Android 4.2 x86 b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Android 4.2 x86 fx-team build": {
       "bld-linux64-spot-": 4
@@ -16,7 +16,7 @@
       "bld-linux64-spot-": 7
     }, 
     "Android armv7 API 11+ b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Android armv7 API 11+ b2g-inbound debug build": {
       "bld-linux64-spot-": 4
@@ -74,7 +74,7 @@
       "b-2008-ix-": 2
     }, 
     "Linux b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux b2g-inbound leak test build": {
       "bld-linux64-spot-": 4
