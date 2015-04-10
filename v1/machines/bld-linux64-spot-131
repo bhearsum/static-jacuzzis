@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Linux x86-64 b2g-inbound build", 
     "b2g_b2g-inbound_flame-kk_eng_dep"
   ]
 }
