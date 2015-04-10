@@ -19,7 +19,7 @@
       "bld-linux64-spot-": 3
     }, 
     "Android armv7 API 11+ b2g-inbound debug build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Android armv7 API 11+ fx-team build": {
       "bld-linux64-spot-": 4
@@ -128,7 +128,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 b2g-inbound leak test build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 5
