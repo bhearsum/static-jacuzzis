@@ -273,7 +273,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-central_emulator_dep": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "b2g_mozilla-central_flame-kk_eng_dep": {
       "bld-linux64-spot-": 5
