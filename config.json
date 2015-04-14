@@ -161,7 +161,7 @@
       "bld-linux64-spot-": 9
     }, 
     "OS X 10.7 mozilla-inbound build": {
-      "bld-lion-r5-": 13
+      "bld-lion-r5-": 14
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-ec2-": 0, 
@@ -297,7 +297,7 @@
       "bld-linux64-spot-": 10
     }, 
     "b2g_mozilla-inbound_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_linux32_gecko build": {
       "bld-linux64-spot-": 1
