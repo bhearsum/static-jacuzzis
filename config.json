@@ -107,7 +107,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Linux mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 Mulet b2g-inbound build": {
       "bld-linux64-spot-": 1
@@ -158,7 +158,7 @@
       "bld-linux64-spot-": 8
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
+      "bld-linux64-spot-": 8
     }, 
     "OS X 10.7 mozilla-inbound build": {
       "bld-lion-r5-": 15
