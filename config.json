@@ -31,7 +31,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
       "bld-linux64-spot-": 13
@@ -183,7 +183,7 @@
       "b-2008-ix-": 15
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 16
+      "b-2008-ix-": 17
     }, 
     "WINNT 6.1 x86-64 mozilla-aurora build": {
       "b-2008-ix-": 4
