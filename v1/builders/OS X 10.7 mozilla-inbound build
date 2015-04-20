@@ -1,7 +1,6 @@
 {
   "machines": [
     "bld-lion-r5-051", 
-    "bld-lion-r5-060", 
     "bld-lion-r5-061", 
     "bld-lion-r5-062", 
     "bld-lion-r5-063", 
@@ -15,6 +14,7 @@
     "bld-lion-r5-083", 
     "bld-lion-r5-084", 
     "bld-lion-r5-085", 
+    "bld-lion-r5-086", 
     "bld-lion-r5-088", 
     "bld-lion-r5-089"
   ]
