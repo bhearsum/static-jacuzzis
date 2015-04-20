@@ -62,17 +62,6 @@
     "Firefox mozilla-aurora win64 l10n nightly": {
       "b-2008-ix-": 2
     }, 
-    "Firefox mozilla-central linux l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Firefox mozilla-central linux64 l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Firefox mozilla-central win64 l10n nightly": {
-      "b-2008-ix-": 2
-    }, 
     "Linux b2g-inbound build": {
       "bld-linux64-spot-": 4
     }, 
