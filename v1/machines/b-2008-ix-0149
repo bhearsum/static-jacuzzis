@@ -1,5 +1,6 @@
 {
   "builders": [
+    "Firefox mozilla-central win64 l10n nightly", 
     "WINNT 6.1 x86-64 mozilla-central leak test build"
   ]
 }
