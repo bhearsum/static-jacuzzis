@@ -90,7 +90,7 @@
       "bld-linux64-spot-": 6
     }, 
     "Linux mozilla-central leak test build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux mozilla-inbound build": {
       "bld-linux64-spot-": 14
@@ -129,7 +129,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-aurora leak test build": {
-      "bld-linux64-spot-": 3
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 mozilla-b2g37_v2_2 build": {
       "bld-linux64-spot-": 3
