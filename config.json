@@ -31,7 +31,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
       "bld-linux64-spot-": 13
