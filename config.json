@@ -250,7 +250,7 @@
       "bld-linux64-spot-": 1
     }, 
     "b2g_mozilla-b2g37_v2_2_linux64_gecko build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-central_emulator-debug_dep": {
       "bld-linux64-spot-": 6
