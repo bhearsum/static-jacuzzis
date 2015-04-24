@@ -169,7 +169,7 @@
       "bld-linux64-spot-": 4
     }, 
     "WINNT 5.2 mozilla-inbound build": {
-      "b-2008-ix-": 16
+      "b-2008-ix-": 15
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
       "b-2008-ix-": 17
@@ -238,7 +238,7 @@
       "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-b2g37_v2_2_emulator-l_dep": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "b2g_mozilla-b2g37_v2_2_emulator_dep": {
       "bld-linux64-spot-": 5
