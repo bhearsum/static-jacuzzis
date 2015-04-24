@@ -123,7 +123,7 @@
       "bld-linux64-spot-": 6
     }, 
     "Linux x86-64 fx-team leak test build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 4
@@ -172,7 +172,7 @@
       "b-2008-ix-": 16
     }, 
     "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 18
+      "b-2008-ix-": 17
     }, 
     "WINNT 6.1 x86-64 mozilla-aurora build": {
       "b-2008-ix-": 4
@@ -187,7 +187,7 @@
       "b-2008-ix-": 6
     }, 
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
-      "b-2008-ix-": 19
+      "b-2008-ix-": 17
     }, 
     "b2g_b2g-inbound_emulator-debug_dep": {
       "bld-linux64-spot-": 6
