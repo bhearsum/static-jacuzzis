@@ -34,7 +34,7 @@
       "bld-linux64-spot-": 6
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
       "bld-linux64-spot-": 9
@@ -147,7 +147,7 @@
       "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 12
+      "bld-linux64-spot-": 10
     }, 
     "OS X 10.7 mozilla-inbound build": {
       "bld-lion-r5-": 16
