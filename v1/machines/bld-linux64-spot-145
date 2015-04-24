@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Android 4.2 x86 mozilla-inbound build", 
-    "Android armv7 API 11+ mozilla-inbound debug build"
-  ]
-}
