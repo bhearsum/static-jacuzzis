@@ -63,10 +63,10 @@
       "b-2008-ix-": 2
     }, 
     "Linux b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux b2g-inbound leak test build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux fx-team build": {
       "bld-linux64-spot-": 6
@@ -114,10 +114,10 @@
       "bld-linux64-spot-": 1
     }, 
     "Linux x86-64 b2g-inbound build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 b2g-inbound leak test build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 3
     }, 
     "Linux x86-64 fx-team build": {
       "bld-linux64-spot-": 6
