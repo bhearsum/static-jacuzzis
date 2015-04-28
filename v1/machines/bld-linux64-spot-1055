@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android armv7 API 11+ mozilla-central build"
+    "Android armv7 API 11+ mozilla-central build", 
+    "Linux mozilla-central leak test build"
   ]
 }
