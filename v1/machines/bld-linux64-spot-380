@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Linux x86-64 mozilla-inbound leak test build"
+    "Linux x86-64 mozilla-inbound leak test build", 
+    "b2g_mozilla-inbound_flame-kk_eng_dep"
   ]
 }
