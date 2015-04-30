@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Linux fx-team leak test build", 
-    "Linux x86-64 fx-team leak test build"
-  ]
-}

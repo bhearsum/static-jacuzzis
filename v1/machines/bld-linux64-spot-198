@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Linux mozilla-aurora leak test build"
-  ]
-}

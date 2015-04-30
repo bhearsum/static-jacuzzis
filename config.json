@@ -1,20 +1,5 @@
 {
   "builders": {
-    "WINNT 6.1 x86-64 mozilla-central build": {
-      "b-2008-ix-": 5
-    }, 
-    "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
-      "b-2008-ix-": 14
-    }, 
-    "WINNT 6.1 x86-64 mozilla-aurora leak test build": {
-      "b-2008-ix-": 3
-    }, 
-    "WINNT 6.1 x86-64 mozilla-central leak test build": {
-      "b-2008-ix-": 6
-    }, 
-    "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 13
-    }, 
     "Firefox mozilla-aurora win64 l10n nightly": {
       "b-2008-ix-": 2
     }, 
@@ -24,8 +9,23 @@
     "WINNT 5.2 mozilla-inbound build": {
       "b-2008-ix-": 13
     }, 
+    "WINNT 5.2 mozilla-inbound leak test build": {
+      "b-2008-ix-": 13
+    }, 
     "WINNT 6.1 x86-64 mozilla-aurora build": {
       "b-2008-ix-": 5
+    }, 
+    "WINNT 6.1 x86-64 mozilla-aurora leak test build": {
+      "b-2008-ix-": 3
+    }, 
+    "WINNT 6.1 x86-64 mozilla-central build": {
+      "b-2008-ix-": 5
+    }, 
+    "WINNT 6.1 x86-64 mozilla-central leak test build": {
+      "b-2008-ix-": 5
+    }, 
+    "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
+      "b-2008-ix-": 14
     }
   }
 }

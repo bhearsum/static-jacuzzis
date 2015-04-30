@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Linux x86-64 Mulet mozilla-inbound build", 
-    "Linux x86-64 mozilla-inbound leak test build"
-  ]
-}

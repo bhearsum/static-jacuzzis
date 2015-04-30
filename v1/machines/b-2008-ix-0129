@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "WINNT 6.1 x86-64 mozilla-central leak test build"
-  ]
-}
