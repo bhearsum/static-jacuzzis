@@ -34,10 +34,10 @@
       "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 11+ mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "Android armv7 API 9 b2g-inbound build": {
       "bld-linux64-spot-": 3
