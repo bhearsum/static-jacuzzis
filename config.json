@@ -1,298 +1,31 @@
 {
   "builders": {
-    "Android 4.2 x86 b2g-inbound build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Android 4.2 x86 fx-team build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android 4.2 x86 mozilla-aurora build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Android 4.2 x86 mozilla-central build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android 4.2 x86 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Android armv7 API 11+ b2g-inbound build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Android armv7 API 11+ b2g-inbound debug build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Android armv7 API 11+ fx-team build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Android armv7 API 11+ fx-team debug build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android armv7 API 11+ mozilla-central build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android armv7 API 11+ mozilla-central debug build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android armv7 API 11+ mozilla-inbound build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Android armv7 API 11+ mozilla-inbound debug build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Android armv7 API 9 b2g-inbound build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Android armv7 API 9 fx-team build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Android armv7 API 9 mozilla-central build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Android armv7 API 9 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Firefox mozilla-aurora linux l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Firefox mozilla-aurora linux64 l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Firefox mozilla-aurora win64 l10n nightly": {
-      "b-2008-ix-": 2
-    }, 
-    "Linux b2g-inbound build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux b2g-inbound leak test build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Linux fx-team build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Linux fx-team leak test build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Linux mozilla-aurora build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Linux mozilla-aurora leak test build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Linux mozilla-b2g37_v2_2 leak test build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux mozilla-central build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Linux mozilla-central leak test build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Linux mozilla-inbound build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Linux mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Linux x86-64 Mulet b2g-inbound build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 Mulet fx-team build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 Mulet mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 Mulet mozilla-central build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 Mulet mozilla-inbound build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "Linux x86-64 b2g-inbound build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux x86-64 b2g-inbound leak test build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux x86-64 fx-team build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Linux x86-64 fx-team leak test build": {
-      "bld-linux64-spot-": 6
-    }, 
-    "Linux x86-64 mozilla-aurora build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux x86-64 mozilla-aurora leak test build": {
-      "bld-linux64-spot-": 3
-    }, 
-    "Linux x86-64 mozilla-b2g37_v2_2 build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux x86-64 mozilla-b2g37_v2_2 leak test build": {
-      "bld-linux64-spot-": 4
-    }, 
-    "Linux x86-64 mozilla-central build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Linux x86-64 mozilla-central leak test build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "Linux x86-64 mozilla-inbound build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 9
-    }, 
-    "OS X 10.7 mozilla-inbound build": {
-      "bld-lion-r5-": 13
-    }, 
-    "Thunderbird comm-aurora linux l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Thunderbird comm-aurora linux64 l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Thunderbird comm-central linux l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "Thunderbird comm-central linux64 l10n nightly": {
-      "bld-linux64-ec2-": 0, 
-      "bld-linux64-spot-": 4
-    }, 
-    "WINNT 5.2 mozilla-inbound build": {
-      "b-2008-ix-": 13
-    }, 
-    "WINNT 5.2 mozilla-inbound leak test build": {
-      "b-2008-ix-": 13
-    }, 
-    "WINNT 6.1 x86-64 mozilla-aurora build": {
-      "b-2008-ix-": 5
-    }, 
-    "WINNT 6.1 x86-64 mozilla-aurora leak test build": {
-      "b-2008-ix-": 3
-    }, 
     "WINNT 6.1 x86-64 mozilla-central build": {
       "b-2008-ix-": 5
-    }, 
-    "WINNT 6.1 x86-64 mozilla-central leak test build": {
-      "b-2008-ix-": 6
     }, 
     "WINNT 6.1 x86-64 mozilla-inbound leak test build": {
       "b-2008-ix-": 14
     }, 
-    "b2g_b2g-inbound_emulator-debug_dep": {
-      "bld-linux64-spot-": 6
+    "WINNT 6.1 x86-64 mozilla-aurora leak test build": {
+      "b-2008-ix-": 3
     }, 
-    "b2g_b2g-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 1
+    "WINNT 6.1 x86-64 mozilla-central leak test build": {
+      "b-2008-ix-": 6
     }, 
-    "b2g_b2g-inbound_emulator-l_dep": {
-      "bld-linux64-spot-": 1
+    "WINNT 5.2 mozilla-inbound leak test build": {
+      "b-2008-ix-": 13
     }, 
-    "b2g_b2g-inbound_emulator_dep": {
-      "bld-linux64-spot-": 6
+    "Firefox mozilla-aurora win64 l10n nightly": {
+      "b-2008-ix-": 2
     }, 
-    "b2g_b2g-inbound_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 6
+    "OS X 10.7 mozilla-inbound build": {
+      "bld-lion-r5-": 13
     }, 
-    "b2g_b2g-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 1
+    "WINNT 5.2 mozilla-inbound build": {
+      "b-2008-ix-": 13
     }, 
-    "b2g_b2g-inbound_linux64_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_emulator-debug_dep": {
-      "bld-linux64-spot-": 6
-    }, 
-    "b2g_fx-team_emulator-jb_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_emulator-l_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_emulator_dep": {
-      "bld-linux64-spot-": 6
-    }, 
-    "b2g_fx-team_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 7
-    }, 
-    "b2g_fx-team_linux32_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_fx-team_linux64_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-b2g37_v2_2_emulator-debug_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-b2g37_v2_2_emulator-jb_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-b2g37_v2_2_emulator-l_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-b2g37_v2_2_emulator_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-b2g37_v2_2_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-b2g37_v2_2_linux32_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-b2g37_v2_2_linux64_gecko build": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_emulator-debug_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_emulator-jb_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-central_emulator-l_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-central_emulator_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 5
-    }, 
-    "b2g_mozilla-central_linux32_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-central_linux64_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-spot-": 12
-    }, 
-    "b2g_mozilla-inbound_emulator-jb_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_emulator-l_dep": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_emulator_dep": {
-      "bld-linux64-spot-": 12
-    }, 
-    "b2g_mozilla-inbound_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 12
-    }, 
-    "b2g_mozilla-inbound_linux32_gecko build": {
-      "bld-linux64-spot-": 1
-    }, 
-    "b2g_mozilla-inbound_linux64_gecko build": {
-      "bld-linux64-spot-": 1
+    "WINNT 6.1 x86-64 mozilla-aurora build": {
+      "b-2008-ix-": 5
     }
   }
 }
