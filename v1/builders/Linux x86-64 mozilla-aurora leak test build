@@ -1,0 +1,8 @@
+{
+  "machines": [
+    "bld-linux64-spot-037", 
+    "bld-linux64-spot-097", 
+    "bld-linux64-spot-1077", 
+    "bld-linux64-spot-1096"
+  ]
+}

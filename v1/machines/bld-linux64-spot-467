@@ -1,0 +1,6 @@
+{
+  "builders": [
+    "Android 4.2 x86 fx-team build", 
+    "Android armv7 API 11+ fx-team build"
+  ]
+}

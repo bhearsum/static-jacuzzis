@@ -1,5 +1,5 @@
 {
   "builders": [
-    "WINNT 6.1 x86-64 mozilla-central build"
+    "WINNT 5.2 mozilla-inbound build"
   ]
 }
