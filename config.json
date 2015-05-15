@@ -1,7 +1,7 @@
 {
   "builders": {
     "Android 4.2 x86 b2g-inbound build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 6
     }, 
     "Android 4.2 x86 fx-team build": {
       "bld-linux64-spot-": 5
