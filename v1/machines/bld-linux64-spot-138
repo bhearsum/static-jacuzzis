@@ -1,5 +1,6 @@
 {
   "builders": [
+    "b2g_fx-team_emulator_dep", 
     "b2g_fx-team_flame-kk_eng_dep"
   ]
 }
