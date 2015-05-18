@@ -100,7 +100,7 @@
       "bld-linux64-spot-": 6
     }, 
     "Linux x86-64 fx-team leak test build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-aurora build": {
       "bld-linux64-spot-": 4
