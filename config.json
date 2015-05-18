@@ -85,10 +85,10 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux mozilla-inbound build": {
-      "bld-linux64-spot-": 19
+      "bld-linux64-spot-": 17
     }, 
     "Linux mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 19
+      "bld-linux64-spot-": 17
     }, 
     "Linux x86-64 b2g-inbound build": {
       "bld-linux64-spot-": 5
@@ -118,7 +118,7 @@
       "bld-linux64-spot-": 20
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
-      "bld-linux64-spot-": 20
+      "bld-linux64-spot-": 19
     }, 
     "Thunderbird comm-aurora linux l10n nightly": {
       "bld-linux64-spot-": 4
