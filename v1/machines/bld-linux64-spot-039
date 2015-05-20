@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android armv7 API 11+ fx-team debug build", 
     "b2g_fx-team_flame-kk_eng_dep"
   ]
 }
