@@ -115,7 +115,7 @@
       "bld-linux64-spot-": 5
     }, 
     "Linux x86-64 mozilla-inbound build": {
-      "bld-linux64-spot-": 8
+      "bld-linux64-spot-": 9
     }, 
     "Linux x86-64 mozilla-inbound leak test build": {
       "bld-linux64-spot-": 9
@@ -160,13 +160,13 @@
       "bld-linux64-spot-": 6
     }, 
     "b2g_mozilla-inbound_emulator-debug_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_emulator_dep": {
       "bld-linux64-spot-": 12
     }, 
     "b2g_mozilla-inbound_flame-kk_eng_dep": {
-      "bld-linux64-spot-": 10
+      "bld-linux64-spot-": 12
     }
   }
 }
