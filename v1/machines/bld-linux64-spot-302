@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Android 4.2 x86 fx-team build", 
     "Linux x86-64 fx-team leak test build"
   ]
 }
