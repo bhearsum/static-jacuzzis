@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android armv7 API 9 mozilla-inbound build"
+    "Android armv7 API 9 mozilla-inbound build", 
+    "Linux x86-64 mozilla-inbound build"
   ]
 }
