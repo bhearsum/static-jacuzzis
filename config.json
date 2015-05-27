@@ -91,7 +91,7 @@
       "bld-linux64-spot-": 12
     }, 
     "Linux x86-64 b2g-inbound build": {
-      "bld-linux64-spot-": 5
+      "bld-linux64-spot-": 4
     }, 
     "Linux x86-64 b2g-inbound leak test build": {
       "bld-linux64-spot-": 4
