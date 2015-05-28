@@ -43,7 +43,7 @@
       "bld-linux64-spot-": 4
     }, 
     "Android armv7 API 9 fx-team build": {
-      "bld-linux64-spot-": 4
+      "bld-linux64-spot-": 5
     }, 
     "Android armv7 API 9 mozilla-central build": {
       "bld-linux64-spot-": 5
@@ -103,7 +103,7 @@
       "bld-linux64-spot-": 7
     }, 
     "Linux x86-64 mozilla-aurora build": {
-      "bld-linux64-spot-": 6
+      "bld-linux64-spot-": 7
     }, 
     "Linux x86-64 mozilla-aurora leak test build": {
       "bld-linux64-spot-": 4
