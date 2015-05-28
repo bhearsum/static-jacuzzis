@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android 4.2 x86 mozilla-aurora build"
+    "Android 4.2 x86 mozilla-aurora build", 
+    "Linux mozilla-aurora build"
   ]
 }
