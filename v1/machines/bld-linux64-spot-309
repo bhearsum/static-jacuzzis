@@ -1,5 +1,6 @@
 {
   "builders": [
-    "Android armv7 API 9 b2g-inbound build"
+    "Android armv7 API 9 b2g-inbound build", 
+    "b2g_b2g-inbound_flame-kk_eng_dep"
   ]
 }
