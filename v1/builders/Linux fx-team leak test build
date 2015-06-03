@@ -5,7 +5,6 @@
     "bld-linux64-spot-310", 
     "bld-linux64-spot-311", 
     "bld-linux64-spot-312", 
-    "bld-linux64-spot-313", 
-    "bld-linux64-spot-335"
+    "bld-linux64-spot-313"
   ]
 }
