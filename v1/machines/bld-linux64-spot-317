@@ -1,6 +1,5 @@
 {
   "builders": [
-    "Linux mozilla-central build", 
     "Linux x86-64 mozilla-central build"
   ]
 }
