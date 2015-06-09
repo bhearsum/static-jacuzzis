@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Android 4.2 x86 mozilla-central build", 
-    "b2g_mozilla-central_emulator_dep"
-  ]
-}

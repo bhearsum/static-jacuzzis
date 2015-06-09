@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Thunderbird comm-aurora linux64 l10n nightly"
-  ]
-}

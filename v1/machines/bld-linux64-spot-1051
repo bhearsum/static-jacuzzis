@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Android armv7 API 9 mozilla-inbound build", 
-    "Linux mozilla-inbound leak test build"
-  ]
-}

@@ -1,6 +1,0 @@
-{
-  "builders": [
-    "Firefox mozilla-aurora linux64 l10n nightly", 
-    "Linux x86-64 mozilla-aurora build"
-  ]
-}
