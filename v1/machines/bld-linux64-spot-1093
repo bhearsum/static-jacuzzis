@@ -1,5 +1,0 @@
-{
-  "builders": [
-    "Android armv7 API 9 mozilla-central build"
-  ]
-}
