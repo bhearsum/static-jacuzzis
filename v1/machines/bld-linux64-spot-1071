@@ -1,0 +1,5 @@
+{
+  "builders": [
+    "Android 4.2 x86 fx-team build"
+  ]
+}
